@@ -1,0 +1,17 @@
+TIÊU ĐỀ (35 ký tự):
+Agent Reach: cho AI đọc cả internet
+
+MÔ TẢ:
+Nhờ AI xem video YouTube mà nó bảo không xem được? Agent Reach là công cụ mã nguồn mở (MIT, Python) giúp agent đọc và tìm trên web, GitHub, phụ đề YouTube, RSS, Reddit, Twitter/X.
+
+Link repo: github.com/Panniantong/Agent-Reach
+(Link trong Shorts không bấm được: để dạng chữ trong mô tả, video đã hiện link trên màn hình.)
+
+Lưu ý thật lòng:
+- Twitter/X, Reddit cần cookie đăng nhập từ trình duyệt của bạn (repo nói cookie chỉ lưu trên máy).
+- Dùng tài khoản của bạn và tuân thủ điều khoản từng nền tảng; mạng xã hội hay đổi cách chặn nên có thể lỗi.
+- Mình chưa test đầy đủ tất cả nền tảng.
+
+#Shorts #AIagent #OpenSource #ClaudeCode
+
+Khi đăng: bật mục 'Nội dung bị thay đổi hoặc tổng hợp' = Có (giọng đọc TTS). Kênh: AIUnBox0026.

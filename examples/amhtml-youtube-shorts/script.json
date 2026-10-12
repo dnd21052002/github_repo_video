@@ -1,0 +1,127 @@
+{
+ "scenes": [
+  {
+   "id": "hook",
+   "label": "01 — VẤN ĐỀ",
+   "phrases": [
+    {
+     "say": "Hỏi ây ai một câu khó, nhận về cả bức tường chữ?",
+     "show": "Hỏi AI một câu khó,\nnhận về *bức tường chữ?*"
+    },
+    {
+     "say": "Đọc xong vẫn chưa hiểu các phần liên quan với nhau thế nào.",
+     "show": "Đọc xong vẫn chưa hiểu\n*chúng liên quan thế nào.*"
+    }
+   ]
+  },
+  {
+   "id": "intro",
+   "label": "02 — GIỚI THIỆU",
+   "phrases": [
+    {
+     "say": "Answer me with HTML là một skill cho agent: bạn hỏi câu khó, nó trả về một trang dễ đọc có sơ đồ.",
+     "show": "*Answer me with HTML:*\nskill cho agent AI."
+    },
+    {
+     "say": "Giấy phép em ai ti, chạy với Clau cốt, Cô-đếch, Cớ-sơ và vài agent khác.",
+     "show": "*MIT.* Chạy với Claude Code,\nCodex, Cursor…"
+    }
+   ]
+  },
+  {
+   "id": "demo",
+   "label": "03 — XEM THỰC TẾ",
+   "phrases": [
+    {
+     "say": "Mình thử với một câu hỏi tiếng Việt: đăng nhập bằng Google hoạt động thế nào?",
+     "show": "Thử bằng *tiếng Việt:*\nđăng nhập bằng Google?"
+    },
+    {
+     "say": "Agent chỉ viết một bản nháp ngắn, còn công cụ tự vẽ sơ đồ, bảng và màu sắc.",
+     "show": "Agent chỉ viết *bản nháp.*\nCông cụ tự vẽ *sơ đồ, bảng.*"
+    },
+    {
+     "say": "Có sẵn nhiều giao diện, cả chế độ sáng và tối, trong một tệp chạy offline.",
+     "show": "Nhiều giao diện, *sáng/tối,*\nmột tệp chạy *offline.*"
+    }
+   ]
+  },
+  {
+   "id": "num",
+   "label": "04 — CON SỐ",
+   "phrases": [
+    {
+     "say": "Theo phép đo trong repo, mô hình viết ít hơn khoảng tám lần so với tự viết HTML, và nhanh hơn khoảng hai phẩy sáu lần.",
+     "show": "Ít chữ hơn *~8 lần*,\nnhanh hơn *~2,6 lần.*"
+    },
+    {
+     "say": "Nhưng hóa đơn chỉ giảm khoảng mười lăm phần trăm.",
+     "show": "Hóa đơn chỉ giảm\n*khoảng 15%.*"
+    }
+   ]
+  },
+  {
+   "id": "kinds",
+   "label": "05 — HỎI GÌ, NHẬN GÌ",
+   "phrases": [
+    {
+     "say": "So sánh thì ra bảng, luồng chạy thì ra sơ đồ, lịch sử thì ra dòng thời gian.",
+     "show": "Mỗi câu hỏi nhận\n*đúng dạng hình* dễ hiểu."
+    },
+    {
+     "say": "Câu hỏi một dòng thì nó chỉ trả lời một dòng, không tạo trang.",
+     "show": "Câu hỏi 1 dòng thì\n*trả lời 1 dòng.*"
+    }
+   ]
+  },
+  {
+   "id": "video",
+   "label": "06 — VIDEO GIẢI THÍCH",
+   "phrases": [
+    {
+     "say": "Còn có thể xin một video giải thích kiểu 3Blue1Brown, sơ đồ dựng dần theo lời thuyết minh.",
+     "show": "Xin *video giải thích*\nkiểu 3Blue1Brown."
+    },
+    {
+     "say": "Xuất ra MP4 hoặc WebM, và chỉ làm khi bạn yêu cầu.",
+     "show": "Xuất *MP4* hoặc *WebM,*\nchỉ khi bạn yêu cầu."
+    }
+   ]
+  },
+  {
+   "id": "install",
+   "label": "07 — CÀI ĐẶT",
+   "phrases": [
+    {
+     "say": "Cài bằng một dòng npx, cần Node.js hai mươi trở lên, không cần npm install.",
+     "show": "Cài *một dòng* npx,\ncần Node.js 20+."
+    }
+   ]
+  },
+  {
+   "id": "note",
+   "label": "08 — LƯU Ý",
+   "phrases": [
+    {
+     "say": "Lưu ý, các nút bấm trên trang vẫn bằng tiếng Anh, và sơ đồ do ây ai viết nên bạn cần soát lại.",
+     "show": "Lưu ý: *nút trên trang* là\ntiếng Anh; cần soát lại."
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "label": "09 — LINK",
+   "phrases": [
+    {
+     "say": "Link dự án mình để ngay trên màn hình nhé.",
+     "show": "Link dự án\nở *ngay trên màn hình.*"
+    },
+    {
+     "say": "Nhớ đăng ký kênh, để xem thêm nhiều công cụ ây ai hay nhé.",
+     "speed": 0.93,
+     "show": "Nhớ *đăng ký kênh*\nđể xem thêm công cụ AI."
+    }
+   ]
+  }
+ ]
+}

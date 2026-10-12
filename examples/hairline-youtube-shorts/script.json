@@ -1,0 +1,121 @@
+{
+ "scenes": [
+  {
+   "id": "hook",
+   "label": "01 — VẤN ĐỀ",
+   "phrases": [
+    {
+     "say": "Trang web của bạn toàn ảnh minh họa tĩnh, nhìn là thấy nhạt?",
+     "show": "Web toàn *ảnh tĩnh*,\nnhìn là thấy nhạt?"
+    },
+    {
+     "say": "Thử đưa chuột vào mấy hình này xem.",
+     "show": "Thử đưa chuột\nvào *mấy hình này.*"
+    }
+   ]
+  },
+  {
+   "id": "intro",
+   "label": "02 — GIỚI THIỆU",
+   "phrases": [
+    {
+     "say": "He-lai là một thư viện, gồm ba mươi ba hình isometric vẽ bằng nét mảnh, biết phản ứng theo con trỏ.",
+     "show": "*Hairline:* 33 hình isometric\nphản ứng theo con trỏ."
+    },
+    {
+     "say": "Giấy phép em ai ti, không phụ thuộc thư viện nào.",
+     "show": "Giấy phép *MIT*,\n*không phụ thuộc* thư viện nào."
+    }
+   ]
+  },
+  {
+   "id": "demo1",
+   "label": "03 — XEM TRỰC TIẾP",
+   "phrases": [
+    {
+     "say": "Lá bài đứng dậy theo con trỏ.",
+     "show": "Lá bài *đứng dậy*\ntheo con trỏ."
+    },
+    {
+     "say": "Cột đất nhô lên quanh nó.",
+     "show": "Cột đất *nhô lên*\nquanh con trỏ."
+    },
+    {
+     "say": "Cửa sổ ứng dụng tách thành bốn lớp khi bạn rê qua.",
+     "show": "Cửa sổ app *tách lớp*\nkhi bạn rê qua."
+    }
+   ]
+  },
+  {
+   "id": "demo2",
+   "label": "04 — THÊM VÀI HÌNH",
+   "phrases": [
+    {
+     "say": "Bàn phím lún xuống theo phím bạn trỏ tới.",
+     "show": "Bàn phím *lún xuống*\ntheo phím bạn trỏ."
+    },
+    {
+     "say": "Laptop mở nắp theo độ cao con trỏ.",
+     "show": "Laptop *mở nắp*\ntheo độ cao chuột."
+    },
+    {
+     "say": "Cửa két thì xoay núm quay, trúng mã là các chốt rút ra.",
+     "show": "Cửa két: *xoay núm*,\ntrúng mã chốt rút ra."
+    }
+   ]
+  },
+  {
+   "id": "code",
+   "label": "05 — CHO DÂN CODE",
+   "phrases": [
+    {
+     "say": "Có cả hình cho dân lập trình: đồ thị commit, ngăn xếp gọi hàm.",
+     "show": "Cho dân code: *đồ thị commit*,\n*ngăn xếp* gọi hàm."
+    },
+    {
+     "say": "Chạm vào một gói, cả chuỗi phụ thuộc bật lên theo.",
+     "show": "Chạm một gói,\n*chuỗi phụ thuộc* bật lên."
+    }
+   ]
+  },
+  {
+   "id": "install",
+   "label": "06 — CÀI ĐẶT",
+   "phrases": [
+    {
+     "say": "Cài bằng npm, rồi một dòng trong Rê-ác là xong.",
+     "show": "Cài bằng *npm*,\nmột dòng *React* là xong."
+    },
+    {
+     "say": "Chỉnh được độ mạnh, sáng tối, và màu qua sáu biến xi ét ét.",
+     "show": "Chỉnh *độ mạnh*, sáng tối,\nmàu qua *6 biến CSS.*"
+    }
+   ]
+  },
+  {
+   "id": "skill",
+   "label": "07 — SKILL CHO AGENT",
+   "phrases": [
+    {
+     "say": "Còn có skill cho Clau cốt, Cô-đếch hay Cớ-sơ: gõ ý tưởng, nó vẽ ra hình mới thành một tệp ếch-tê-em-lờ.",
+     "show": "Skill cho agent: gõ *ý tưởng*,\nra *file HTML* hình mới."
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "label": "08 — LINK",
+   "phrases": [
+    {
+     "say": "Link dự án mình để ngay trên màn hình nhé.",
+     "show": "Link dự án\nở *ngay trên màn hình.*"
+    },
+    {
+     "say": "Nhớ đăng ký kênh, để xem thêm nhiều công cụ ây ai hay nhé.",
+     "speed": 0.93,
+     "show": "Nhớ *đăng ký kênh*\nđể xem thêm công cụ AI."
+    }
+   ]
+  }
+ ]
+}

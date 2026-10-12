@@ -1,0 +1,17 @@
+TIÊU ĐỀ (40 ký tự):
+Meetily: trợ lý họp AI chạy trên máy bạn
+
+MÔ TẢ:
+Họp xong quên sạch, ghi biên bản mất cả tiếng? Meetily chép lời trực tiếp, tự tóm tắt và lập việc cần làm, chạy hoàn toàn trên máy bạn.
+
+Link repo: github.com/Zackriya-Solutions/meetily
+(Link trong Shorts không bấm được: để dạng chữ trong mô tả, video đã hiện link trên màn hình.)
+
+Lưu ý thật lòng:
+- Bản Community (MIT) miễn phí, có thêm bản PRO trả phí riêng; tóm tắt local cần Ollama và máy đủ mạnh.
+- Mình chưa tự kiểm chứng chất lượng phiên âm tiếng Việt (repo chỉ có tùy chọn ngôn ngữ Vietnamese), nên thử trước.
+- Luôn báo cho mọi người biết khi ghi âm cuộc họp.
+
+#Shorts #Meetily #AIhopvanphong #OpenSource
+
+Khi đăng: bật mục 'Nội dung bị thay đổi hoặc tổng hợp' = Có (giọng đọc TTS). Kênh: AIUnBox0026.

@@ -1,0 +1,14 @@
+Họp xong là quên sạch, ghi biên bản mất cả tiếng? 😵
+Mình thử Meetily (ứng dụng ghi âm họp mã nguồn mở, chạy trên máy bạn) với một cuộc họp tiếng Việt và đo luôn số token 👇
+
+📊 Số liệu mình đo (CPU 4 nhân, không GPU):
+✅ Phiên âm Whisper Medium, ngôn ngữ Vietnamese: sai 9/261 từ ≈ 3,4%
+✅ Tóm tắt (Qwen 3.5 4B có sẵn): 2 lượt, tổng 3.191 token (855+648, 839+849)
+⚠️ Cuộc họp mẫu là giọng AI sạch, không ồn; họp thật có thể sai nhiều hơn
+⚠️ Bản tóm tắt vẫn sai: thứ Sáu → thứ Bảy, tên người phụ trách bị trống → phải soát lại
+⚠️ Chạy CPU rất chậm (phần chờ đã tua nhanh trong video); nhớ báo mọi người khi ghi âm
+
+Link repo: xem trên màn hình video / ghim ở bình luận (github.com/Zackriya-Solutions/meetily)
+
+#aiunbox #meetily #congcuai #vanphong #opensource #hopthongminh
+Nội dung có sử dụng AI hỗ trợ tạo (giọng đọc, cuộc họp mẫu & hình ảnh).

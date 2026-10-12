@@ -1,0 +1,178 @@
+{
+ "scenes": [
+  {
+   "id": "hook",
+   "label": "01 — VẤN ĐỀ",
+   "layout": "card",
+   "phrases": [
+    {
+     "say": "Họp xong là quên sạch, ghi biên bản thì mất cả tiếng?",
+     "show": "Họp xong là quên sạch,\nghi biên bản *mất cả tiếng?*"
+    },
+    {
+     "say": "Mình thử Mi-ti-li với một cuộc họp tiếng Việt, và đo luôn số tô-ken.",
+     "show": "Thử *Meetily* với họp *tiếng Việt*\nvà đo *số token*"
+    }
+   ]
+  },
+  {
+   "id": "what",
+   "label": "02 — GIỚI THIỆU",
+   "layout": "card",
+   "phrases": [
+    {
+     "say": "Mi-ti-li là ứng dụng ghi âm họp mã nguồn mở, chạy ngay trên máy bạn, giấy phép em ai ti.",
+     "show": "*Meetily:* ghi âm họp mã nguồn mở,\nchạy trên máy bạn, *MIT*"
+    }
+   ]
+  },
+  {
+   "id": "setup",
+   "label": "03 — CÀI TIẾNG VIỆT",
+   "layout": "screen",
+   "phrases": [
+    {
+     "say": "Mặc định phiên âm là Pa-ra-kít, với tiếng Việt mình đổi sang Whisper, loại Medium.",
+     "show": "Đổi sang *Local Whisper*\nloại *Medium* (~514 MB)",
+     "src": [
+      357.5,
+      382.5
+     ],
+     "cx": 430,
+     "tag": "WHISPER MEDIUM"
+    },
+    {
+     "say": "Rồi chọn ngôn ngữ Vietnamese, không dùng tự nhận diện.",
+     "show": "Language → *Vietnamese*\n(không dùng Auto Detect)",
+     "src": [
+      397,
+      413
+     ],
+     "cx": 390,
+     "tag": "LANGUAGE: VIETNAMESE"
+    }
+   ]
+  },
+  {
+   "id": "rec",
+   "label": "04 — GHI ÂM THỬ",
+   "layout": "screen",
+   "phrases": [
+    {
+     "say": "Mình phát một cuộc họp mẫu sáu mươi bảy giây, do giọng AI tạo, chữ hiện dần ngay khi có người nói.",
+     "show": "Họp mẫu *67 giây* (*giọng AI*)\nchữ hiện dần khi có người nói",
+     "src": [
+      428,
+      440
+     ],
+     "cx": 500,
+     "tag": "CUỘC HỌP MẪU 67 GIÂY"
+    },
+    {
+     "say": "Máy mình chỉ có CPU, mỗi đoạn mất khoảng một phút, nên mình tua nhanh.",
+     "show": "CPU 4 nhân: ~*1 phút/đoạn*\nđã *tua nhanh*",
+     "src": [
+      440,
+      1165
+     ],
+     "cx": 500,
+     "tag": "CPU 4 NHÂN, KHÔNG GPU"
+    }
+   ]
+  },
+  {
+   "id": "result",
+   "label": "05 — KẾT QUẢ CHỮ",
+   "layout": "screen",
+   "phrases": [
+    {
+     "say": "Kết quả: sai chín trên hai trăm sáu mươi mốt từ, khoảng ba phẩy bốn phần trăm, như đặt thành đạt, ngân sách thành năn sách.",
+     "show": "Sai *9/261 từ* ≈ *3,4%*\n*đặt→đạt*, *ngân→năn*",
+     "still": 1199,
+     "cx": 60,
+     "tag": "TỶ LỆ SAI TỪ 3,4%"
+    },
+    {
+     "say": "Nhưng đó là giọng AI sạch, không ồn; họp thật có thể sai nhiều hơn.",
+     "show": "Giọng AI sạch, không ồn:\nhọp thật *có thể sai nhiều hơn*",
+     "still": 1199,
+     "cx": 60,
+     "tag": "LƯU Ý"
+    }
+   ]
+  },
+  {
+   "id": "summary",
+   "label": "06 — TÓM TẮT",
+   "layout": "screen",
+   "phrases": [
+    {
+     "say": "Bấm Generate Summary, tua nhanh, ra bản tóm tắt tiếng Việt, có quyết định chính và bảng việc cần làm.",
+     "show": "*Generate Summary* → tóm tắt\n*quyết định* + *bảng việc*",
+     "src": [
+      1199,
+      2190
+     ],
+     "cx": 700,
+     "tag": "GENERATE SUMMARY"
+    },
+    {
+     "say": "Nhưng thứ Sáu bị viết thành thứ Bảy, và tên người phụ trách bị bỏ trống, nên phải soát lại.",
+     "show": "Có lỗi: *thứ Sáu→thứ Bảy*,\ntên người *bị trống*",
+     "still": 2188,
+     "cx": 700,
+     "tag": "PHẢI SOÁT LẠI"
+    }
+   ]
+  },
+  {
+   "id": "tokens",
+   "label": "07 — SỐ TOKEN",
+   "layout": "tokens",
+   "phrases": [
+    {
+     "say": "Số tô-ken: tiếng Việt gọi mô-đồ hai lượt. Lượt một viết tóm tắt: tám trăm năm mươi lăm vào, sáu trăm bốn mươi tám ra.",
+     "show": "Lượt 1 (viết): *855* vào · *648* ra",
+     "step": 1
+    },
+    {
+     "say": "Lượt hai dịch sang tiếng Việt: tám trăm ba mươi chín vào, tám trăm bốn mươi chín ra.",
+     "show": "Lượt 2 (dịch): *839* vào · *849* ra",
+     "step": 2
+    },
+    {
+     "say": "Tổng cộng ba nghìn một trăm chín mươi mốt tô-ken. Chạy local nên không tốn phí API.",
+     "show": "Tổng *3.191 token*\nlocal: *không tốn phí API*",
+     "step": 3
+    }
+   ]
+  },
+  {
+   "id": "note",
+   "label": "08 — LƯU Ý",
+   "layout": "card",
+   "phrases": [
+    {
+     "say": "Lưu ý: máy chỉ có CPU thì rất chậm, và luôn báo cho mọi người biết khi ghi âm cuộc họp.",
+     "show": "CPU thì *rất chậm* · nhớ\n*báo mọi người* khi ghi âm"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "label": "09 — LINK",
+   "layout": "card",
+   "phrases": [
+    {
+     "say": "Link dự án mình để ngay trên màn hình nhé.",
+     "show": "Link dự án\nở *ngay trên màn hình.*"
+    },
+    {
+     "say": "Nhớ theo dõi kênh, để xem thêm nhiều công cụ ây ai hay nhé.",
+     "show": "Nhớ *theo dõi kênh*\nđể xem thêm công cụ AI.",
+     "speed": 0.93
+    }
+   ]
+  }
+ ]
+}

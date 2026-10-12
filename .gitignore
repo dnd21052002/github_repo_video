@@ -1,0 +1,13 @@
+.venv/
+node_modules/
+assets/fonts/
+assets/gsap.min.js
+audio/
+build/
+*.mp4
+*.mkv
+*.wav
+index.html
+snapshots/
+voice/ref.wav
+.env

@@ -1,0 +1,16 @@
+Nhờ AI xem video YouTube mà nó bảo "không xem được"? 😵
+Agent Reach là công cụ mã nguồn mở giúp agent (Claude Code, Cursor…) đọc & tìm kiếm trên mạng: trang web, GitHub, phụ đề YouTube, RSS, và cả Reddit, Twitter/X khi bạn đăng nhập.
+
+✅ Giấy phép MIT, viết bằng Python
+✅ Dán 1 dòng cho agent là nó tự cài, có lệnh doctor để kiểm tra
+✅ Dùng cho: tóm tắt video bài giảng (cần có phụ đề), gom ý kiến mọi người trước khi mua
+
+⚠️ Lưu ý thật lòng:
+- Twitter/X, Reddit... cần cookie đăng nhập từ trình duyệt của bạn (repo nói cookie chỉ lưu trên máy)
+- Nên dùng tài khoản của bạn và tuân thủ điều khoản từng nền tảng; cách chặn của mạng xã hội hay thay đổi nên có thể lỗi
+- Mình chưa test đầy đủ tất cả nền tảng
+
+Link repo: xem trên màn hình video / ghim ở bình luận (github.com/Panniantong/Agent-Reach)
+
+#aiunbox #agent #github #opensource #congcuai #claudecode
+Nội dung có sử dụng AI hỗ trợ tạo (giọng đọc & hình ảnh).

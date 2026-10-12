@@ -1,0 +1,125 @@
+{
+ "scenes": [
+  {
+   "id": "hook",
+   "label": "01 — VẤN ĐỀ",
+   "phrases": [
+    {
+     "say": "Mỗi con ây ai viết code, một cửa sổ tơ-mi-nồ.",
+     "show": "Mỗi AI viết code\nmột cửa sổ *terminal.*"
+    },
+    {
+     "say": "Hôm nay mình giải thích lại con-tếch, lần thứ tư rồi.",
+     "show": "Hôm nay mình giải thích lại\n*context* lần thứ tư rồi."
+    }
+   ]
+  },
+  {
+   "id": "intro",
+   "label": "02 — GIẢI PHÁP",
+   "phrases": [
+    {
+     "say": "Có một repo trên Ghít-hấp, sinh ra để xử lý đúng chuyện này.",
+     "show": "Một repo GitHub\nxử lý đúng chuyện này."
+    },
+    {
+     "say": "Tên là Mun-ti-ca.",
+     "show": "Tên là *Multica.*"
+    }
+   ]
+  },
+  {
+   "id": "board",
+   "label": "03 — CÁCH HOẠT ĐỘNG",
+   "phrases": [
+    {
+     "say": "Ý tưởng rất đơn giản: giao việc cho ây ai như giao việc cho đồng đội.",
+     "show": "Giao việc cho AI\nnhư giao cho *đồng đội.*"
+    },
+    {
+     "say": "Bạn tạo một í-su, chọn agent làm người nhận.",
+     "show": "Tạo issue, chọn agent\nlàm *assignee.*"
+    },
+    {
+     "say": "Nó tự nhận việc, vừa làm vừa báo tiến độ, xong thì chuyển sang ri-viu.",
+     "show": "Nó tự nhận việc, báo tiến độ,\nxong thì chuyển sang *review.*"
+    }
+   ]
+  },
+  {
+   "id": "runtimes",
+   "label": "04 — AGENT",
+   "phrases": [
+    {
+     "say": "Mun-ti-ca không bán mô-đồ nào cả.",
+     "show": "Multica không bán *model.*"
+    },
+    {
+     "say": "Nó điều khiển chính các Xi Eo Ai bạn đang dùng: Clau cốt, Cô-đếch, Cớ-sơ, Cô-pai-lớt, Ki-mi.",
+     "show": "Nó điều khiển chính các\nCLI *bạn đang dùng.*"
+    },
+    {
+     "say": "Hiện hỗ trợ hai mươi sáu loại. Đổi nhà cung cấp chỉ là chọn trong danh sách.",
+     "show": "Đổi nhà cung cấp\nchỉ là *chọn trong danh sách.*"
+    }
+   ]
+  },
+  {
+   "id": "log",
+   "label": "05 — KIỂM SOÁT",
+   "phrases": [
+    {
+     "say": "Agent chạy ngay trên máy bạn, nên mã nguồn không rời khỏi máy.",
+     "show": "Agent chạy trên máy bạn.\n*Mã nguồn* không rời máy."
+    },
+    {
+     "say": "Mỗi lần chạy đều có nhật ký: lệnh nào, lỗi nào, tốn bao nhiêu tiền.",
+     "show": "Mỗi lần chạy có nhật ký:\nlệnh, lỗi, *tốn bao nhiêu.*"
+    }
+   ]
+  },
+  {
+   "id": "auto",
+   "label": "06 — TỰ ĐỘNG",
+   "phrases": [
+    {
+     "say": "Còn có Âu-tô-pai-lớt: đặt lịch cho báo cáo sáng, kiểm tra, báo cáo tuần.",
+     "show": "*Autopilot:* đặt lịch cho\nbáo cáo sáng, kiểm tra."
+    },
+    {
+     "say": "Và việc luôn dừng ở bước ri-viu. Không có chuyện tự đẩy thẳng vào nhánh chính.",
+     "show": "Việc luôn dừng ở *review.*\nKhông tự lên nhánh chính."
+    }
+   ]
+  },
+  {
+   "id": "stack",
+   "label": "07 — TỰ HOST",
+   "phrases": [
+    {
+     "say": "Tự host được bằng Đóc-cơ Com-pâu. Máy chủ viết bằng Gô-lang, giao diện Nếch chấm J S, dữ liệu Pốts-gre ét-kiu-eo.",
+     "show": "Tự host: *Docker Compose*\nGo · Next.js · PostgreSQL."
+    },
+    {
+     "say": "Giấy phép dựa trên A-pa-chi hai chấm không, kèm vài điều kiện. Dùng để kinh doanh thì nhớ đọc kỹ.",
+     "show": "Giấy phép *Apache 2.0*\n+ điều kiện bổ sung."
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "label": "08 — LINK",
+   "phrases": [
+    {
+     "say": "Link dự án mình để ngay trên màn hình nhé.",
+     "show": "Link dự án\nở *ngay trên màn hình.*"
+    },
+    {
+     "say": "Nhớ đăng ký kênh, để xem thêm nhiều công cụ ây ai hay nhé.",
+     "speed": 0.93,
+     "show": "Nhớ *đăng ký kênh*\nđể xem thêm công cụ AI."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+/* Kiểu nền cho video kênh @ai.unbox0026. Mỗi video chọn MỘT họ nền khác video trước (xem THEMES_LOG.md).
+   Dùng: <div class="bg t-xxx"></div> trong mỗi scene; biến màu đặt trên .scene (--paper --ink --acc --hl ...). */
+.bg{position:absolute;left:0;top:0;width:1080px;height:1920px}
+
+/* 1. BLUEPRINT — xanh navy, lưới kỹ thuật + vạch đo, nhấn cyan/vàng. Hợp repo dev/hạ tầng. */
+.t-blueprint{background-color:#0E2A47;
+ background-image:linear-gradient(rgba(150,200,255,.34) 2.5px,transparent 2.5px),linear-gradient(90deg,rgba(150,200,255,.34) 2.5px,transparent 2.5px),linear-gradient(rgba(150,200,255,.16) 1.5px,transparent 1.5px),linear-gradient(90deg,rgba(150,200,255,.16) 1.5px,transparent 1.5px);
+ background-size:216px 216px,216px 216px,54px 54px,54px 54px}
+.t-blueprint::after{content:"";position:absolute;inset:60px;border:2px solid rgba(150,200,255,.35)}
+
+/* 2. RISO — giấy kem, hai màu mực lệch nhau (hồng + xanh ngọc), hạt halftone, khối màu phẳng. Hợp chủ đề sáng tạo/giáo dục. */
+.t-riso{background-color:#F4EEE1;
+ background-image:radial-gradient(circle at 18% 14%,rgba(255,90,140,.9) 0 150px,transparent 151px),radial-gradient(circle at 92% 30%,rgba(0,170,160,.85) 0 210px,transparent 211px),radial-gradient(rgba(30,30,30,.18) 2px,transparent 2.6px);
+ background-size:100% 100%,100% 100%,14px 14px;background-blend-mode:multiply,multiply,normal}
+.t-riso::after{content:"";position:absolute;left:0;top:1380px;width:1080px;height:540px;background:#FF5A8C;mix-blend-mode:multiply;opacity:.9}
+
+/* 3. TERMINAL — nền đen xanh, scanline CRT, vignette, chữ phosphor. Hợp CLI/agent/hacker tool. */
+.t-terminal{background-color:#07110C;
+ background-image:repeating-linear-gradient(0deg,rgba(80,255,150,.07) 0 2px,transparent 2px 6px),radial-gradient(ellipse at 50% 40%,rgba(40,120,70,.35),transparent 65%)}
+.t-terminal::after{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at center,transparent 55%,rgba(0,0,0,.65) 100%)}
+
+/* 4. FLAT-BLOCK — màu đặc rực (không gradient) + hình học lớn (tròn, sọc chéo, bán nguyệt) kiểu Memphis/poster. Hợp công cụ vui, đời thường. */
+.t-flat{background-color:#FFD23F;
+ background-image:radial-gradient(circle at 100% 0,#FF5D3A 0 330px,transparent 331px),radial-gradient(circle at 0 100%,#1B1B1B 0 260px,transparent 261px),repeating-linear-gradient(135deg,rgba(0,0,0,.08) 0 14px,transparent 14px 44px)}
+
+/* 5. SCREEN-BACKDROP — chính ảnh giao diện repo, phóng to, làm mờ, phủ màu tối. Mỗi repo một nền riêng. Đặt ảnh bằng style="--img:url(assets/img/xxx.jpg)". */
+.t-screen{background:#10131A}
+.t-screen::before{content:"";position:absolute;inset:-80px;background-image:var(--img);background-size:cover;background-position:center;filter:blur(38px) saturate(1.3);opacity:.55}
+.t-screen::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,12,20,.55),rgba(10,12,20,.85))}
+
+/* 6. BRAND-SOLID — một màu thương hiệu của repo làm nền đặc, chia khối ngang bằng vạch trắng mảnh. */
+.t-brand{background-color:var(--brand,#2F5BD3);
+ background-image:linear-gradient(rgba(255,255,255,.14) 2px,transparent 2px),linear-gradient(90deg,rgba(255,255,255,.14) 2px,transparent 2px);
+ background-size:100% 480px,360px 100%}

@@ -1,0 +1,19 @@
+TIÊU ĐỀ (39 ký tự):
+Aurelio: app quản lý tài sản chạy local
+
+MÔ TẢ:
+Tiền nằm rải rác ở ngân hàng, sàn, quỹ, khoản vay... Aurelio là app quản lý tài sản chạy ngay trên máy, có cố vấn AI hỏi đáp trên chính số liệu của bạn, MIT.
+
+Link repo: github.com/LosaLosSantos/aurelio-finance
+(Link trong Shorts không bấm được: để dạng chữ trong mô tả, video đã hiện link trên màn hình.)
+
+Lưu ý thật lòng:
+- Đây là nội dung giới thiệu công cụ, không phải lời khuyên đầu tư/tài chính.
+- Thử bằng dữ liệu giả: ./start.sh --demo (Windows: ./start.ps1 -Demo). Cần Git, Node 22+, uv.
+- Phần AI là tùy chọn, đi qua OpenRouter bằng khóa của bạn; chi phí lấy từ README (đo tháng 10/2026).
+- Ví dụ dùng euro và quỹ ETF châu Âu; chưa kiểm tra mức phù hợp với thị trường Việt Nam.
+- Cảnh 'Ask Aurelio' và 'nhìn xuyên quỹ' là hoạt ảnh minh họa từ repo.
+
+#Shorts #Aurelio #TaiChinh #OpenSource
+
+Khi đăng: bật mục 'Nội dung bị thay đổi hoặc tổng hợp' = Có (giọng đọc TTS). Kênh: AIUnBox0026.

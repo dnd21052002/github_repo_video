@@ -1,0 +1,15 @@
+TIÊU ĐỀ (38 ký tự):
+Multica: giao việc cho AI như đồng đội
+
+MÔ TẢ:
+Mỗi AI viết code một cửa sổ terminal, lần thứ tư giải thích lại context? Multica là nền tảng mã nguồn mở để giao việc cho AI coding agent như giao cho đồng đội.
+
+Link repo: github.com/multica-ai/multica
+(Link trong Shorts không bấm được: để dạng chữ trong mô tả, video đã hiện link trên màn hình.)
+
+Lưu ý thật lòng:
+- Mình chưa kiểm chứng hết mọi tính năng; xem README của repo trước khi dùng.
+
+#Shorts #Multica #AIagent #OpenSource
+
+Khi đăng: bật mục 'Nội dung bị thay đổi hoặc tổng hợp' = Có (giọng đọc TTS). Kênh: AIUnBox0026.

@@ -1,0 +1,8 @@
+Caption:
+Hỏi AI về tài liệu mà nó trả lời bịa, chẳng ai kiểm tra bạn đã hiểu thật chưa? DeepTutor: gia sư AI mã nguồn mở, trích dẫn từng trang, có lộ trình ôn tập 👇 #aiunbox0026 #DeepTutor #AIhoctap #congcuAI #sinhvien #giaovien
+
+Lưu ý khi đăng:
+- Bật nhãn "Nội dung do AI tạo" (giọng đọc TTS).
+- Link repo để ở bio / comment ghim, không dán trong caption: github.com/HKUDS/DeepTutor
+- Ảnh bìa: build/cover.png
+- Nhắc trong comment: DeepTutor cần tự gắn API key của model (hoặc chạy Ollama local); giao diện chưa có tiếng Việt.

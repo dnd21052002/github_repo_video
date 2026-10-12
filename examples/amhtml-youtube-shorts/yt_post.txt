@@ -1,0 +1,16 @@
+TIÊU ĐỀ (42 ký tự):
+Answer me with HTML: AI trả lời bằng trang
+
+MÔ TẢ:
+Hỏi AI một câu khó mà nhận về bức tường chữ? Answer me with HTML là skill giúp agent trả lời bằng một trang HTML có sơ đồ, bảng, dòng thời gian. MIT, cài bằng một dòng npx (cần Node.js 20+).
+
+Link repo: github.com/QingYunA/answer-me-with-html
+(Link trong Shorts không bấm được: để dạng chữ trong mô tả, video đã hiện link trên màn hình.)
+
+Lưu ý thật lòng:
+- Số liệu ít chữ hơn ~8 lần, nhanh hơn ~2,6 lần là phép đo của chính repo; hóa đơn chỉ giảm khoảng 15%.
+- Nút bấm trên trang vẫn bằng tiếng Anh; sơ đồ do AI viết nên cần soát lại.
+
+#Shorts #AIagent #ClaudeCode #OpenSource
+
+Khi đăng: bật mục 'Nội dung bị thay đổi hoặc tổng hợp' = Có (giọng đọc TTS). Kênh: AIUnBox0026.

@@ -1,0 +1,123 @@
+{
+ "scenes": [
+  {
+   "id": "hook",
+   "label": "01 — VẤN ĐỀ",
+   "phrases": [
+    {
+     "say": "Tiền nằm rải rác ở ngân hàng, sàn chứng khoán, quỹ chỉ số, rồi cả khoản vay nhà.",
+     "show": "Tiền nằm khắp nơi:\nngân hàng, sàn, *quỹ, nợ.*"
+    },
+    {
+     "say": "Bạn có biết mình thực sự có bao nhiêu không?",
+     "show": "Bạn có biết mình\n*thực sự có bao nhiêu?*"
+    }
+   ]
+  },
+  {
+   "id": "intro",
+   "label": "02 — GIỚI THIỆU",
+   "phrases": [
+    {
+     "say": "Ao-rê-li-ô là ứng dụng quản lý tài sản chạy ngay trên máy tính của bạn, có thêm cố vấn ây ai để hỏi.",
+     "show": "*Aurelio:* quản lý tài sản\nchạy ngay trên máy bạn."
+    },
+    {
+     "say": "Giấy phép em ai ti, số liệu lưu trong một tập tin trên máy.",
+     "show": "Giấy phép *MIT.*\nSố liệu *lưu trên máy bạn.*"
+    }
+   ]
+  },
+  {
+   "id": "dash",
+   "label": "03 — TỔNG QUAN",
+   "phrases": [
+    {
+     "say": "Màn hình đầu tiên cho thấy tài sản ròng, và nó thay đổi thế nào theo thời gian.",
+     "show": "*Tài sản ròng* và\nbiến động theo thời gian."
+    },
+    {
+     "say": "Chia rõ thành đầu tư, tiền mặt, tài sản thực và nợ.",
+     "show": "Đầu tư, tiền mặt,\n*tài sản thực, nợ.*"
+    }
+   ]
+  },
+  {
+   "id": "port",
+   "label": "04 — DANH MỤC",
+   "phrases": [
+    {
+     "say": "Mỗi mã đầu tư được định giá theo thị trường, kèm giá vốn, lãi lỗ và cổ tức.",
+     "show": "Mỗi mã: *giá thị trường,*\ngiá vốn, lãi lỗ, cổ tức."
+    },
+    {
+     "say": "Còn tính năng nhìn xuyên quỹ cho biết quỹ thực sự giữ nước nào, ngành nào, công ty nào.",
+     "show": "*Nhìn xuyên quỹ:* nước,\nngành, công ty, tiền tệ."
+    }
+   ]
+  },
+  {
+   "id": "ai",
+   "label": "05 — HỎI CỐ VẤN",
+   "phrases": [
+    {
+     "say": "Bạn hỏi bằng chat, nó trả lời dựa trên chính số liệu của bạn, và có thể tìm cả trên web.",
+     "show": "Hỏi bằng chat, nó trả lời\ndựa trên *số liệu của bạn.*"
+    },
+    {
+     "say": "Mọi thay đổi nó đề xuất đều là một thẻ, để bạn bấm xác nhận hoặc từ chối.",
+     "show": "Mọi thay đổi là một thẻ:\n*xác nhận* hoặc *từ chối.*"
+    }
+   ]
+  },
+  {
+   "id": "cost",
+   "label": "06 — CHI PHÍ",
+   "phrases": [
+    {
+     "say": "Phần ây ai là tùy chọn, đi qua OpenRouter bằng khóa của bạn.",
+     "show": "AI là *tùy chọn*, đi qua\nOpenRouter + khóa của bạn."
+    },
+    {
+     "say": "Với mô-đồ mặc định, câu hỏi đầu khoảng mười một cent, câu sau khoảng ba cent.",
+     "show": "Câu đầu *≈ $0,11*,\ncâu sau *≈ $0,03.*"
+    }
+   ]
+  },
+  {
+   "id": "install",
+   "label": "07 — THỬ NGAY",
+   "phrases": [
+    {
+     "say": "Có chế độ demo với dữ liệu giả, cần Git, Node và uv, rồi chạy một lệnh.",
+     "show": "Thử bằng *dữ liệu giả:*\ncần Git, Node 22, uv."
+    }
+   ]
+  },
+  {
+   "id": "note",
+   "label": "08 — LƯU Ý",
+   "phrases": [
+    {
+     "say": "Lưu ý, ví dụ trong app dùng đồng euro và quỹ châu Âu, nên bạn cần xem có hợp với mình không.",
+     "show": "Lưu ý: ví dụ dùng *euro*\nvà quỹ châu Âu."
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "label": "09 — LINK",
+   "phrases": [
+    {
+     "say": "Link dự án mình để ngay trên màn hình nhé.",
+     "show": "Link dự án\nở *ngay trên màn hình.*"
+    },
+    {
+     "say": "Nhớ đăng ký kênh, để xem thêm nhiều công cụ ây ai hay nhé.",
+     "speed": 0.93,
+     "show": "Nhớ *đăng ký kênh*\nđể xem thêm công cụ AI."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+Hỏi AI một câu khó mà nhận về cả bức tường chữ? 😵
+Answer me with HTML là skill giúp agent (Claude Code, Codex, Cursor…) trả lời bằng MỘT TRANG HTML có sơ đồ, bảng, timeline – đọc là hiểu.
+
+✅ Giấy phép MIT, cài bằng 1 dòng npx (cần Node.js 20+)
+✅ Trang chạy offline, có nhiều giao diện, sáng/tối
+✅ Có thể xin cả video giải thích (MP4 cần ffmpeg)
+
+⚠️ Lưu ý thật lòng:
+- Số liệu “ít chữ hơn ~8 lần, nhanh hơn ~2,6 lần” là phép đo của chính repo (trung vị, 3 chủ đề × 3 lần); hóa đơn chỉ giảm khoảng 15%
+- Nút bấm trên trang vẫn bằng tiếng Anh; sơ đồ do AI viết nên cần soát lại
+
+Link repo: xem trên màn hình video / ghim ở bình luận (github.com/QingYunA/answer-me-with-html)
+
+#aiunbox #claudecode #agent #github #opensource #congcuai #hocai
+Nội dung có sử dụng AI hỗ trợ tạo (giọng đọc & hình ảnh).

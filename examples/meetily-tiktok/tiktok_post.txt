@@ -1,0 +1,9 @@
+Caption:
+Họp xong quên sạch, ghi biên bản mất cả tiếng? Meetily: trợ lý họp AI chạy hoàn toàn trên máy bạn, chép lời trực tiếp, tự tóm tắt và lập bảng việc cần làm 👇 #aiunbox0026 #Meetily #AIagent #congcuAI #vanphong #sinhvien
+
+Lưu ý khi đăng:
+- Bật nhãn "Nội dung do AI tạo" (giọng đọc TTS).
+- Link repo để ở bio / comment ghim: github.com/Zackriya-Solutions/meetily
+- Ảnh bìa: build/cover.png
+- Nên ghim comment: bản Community (MIT) miễn phí, có thêm bản PRO trả phí riêng; tóm tắt local cần cài Ollama và máy đủ mạnh; Linux phải tự build; luôn báo cho mọi người biết khi ghi âm cuộc họp.
+- Chưa tự kiểm chứng chất lượng phiên âm tiếng Việt (repo chỉ có tùy chọn ngôn ngữ Vietnamese); nên thử trước khi hứa hẹn.

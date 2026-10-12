@@ -1,0 +1,121 @@
+{
+ "scenes": [
+  {
+   "id": "hook",
+   "label": "01 — VẤN ĐỀ",
+   "phrases": [
+    {
+     "say": "Tài liệu dày cả trăm trang, hỏi ây ai thì nó trả lời bịa?",
+     "show": "Tài liệu dày cả trăm trang,\nhỏi AI thì *trả lời bịa?*"
+    },
+    {
+     "say": "Và chẳng ai kiểm tra xem bạn đã hiểu thật chưa.",
+     "show": "Và chẳng ai kiểm tra\nbạn đã *hiểu thật* chưa."
+    }
+   ]
+  },
+  {
+   "id": "intro",
+   "label": "02 — GIỚI THIỆU",
+   "phrases": [
+    {
+     "say": "Đíp Tu-tơ là một repo trên Ghít-hấp, biến ây ai thành gia sư riêng của bạn.",
+     "show": "*DeepTutor:* gia sư AI\nmã nguồn mở cho người học."
+    },
+    {
+     "say": "Hơn bốn mươi nghìn sao sau chín tháng, mã nguồn mở, và không có bản trả phí.",
+     "show": "40k+ sao sau 9 tháng.\n*Không có bản trả phí.*"
+    }
+   ]
+  },
+  {
+   "id": "read",
+   "label": "03 — HỎI ĐÁP TÀI LIỆU",
+   "phrases": [
+    {
+     "say": "Bạn tải file lên, rồi hỏi thẳng trên tài liệu.",
+     "show": "Tải file lên,\nhỏi *thẳng trên tài liệu.*"
+    },
+    {
+     "say": "Mỗi câu trả lời đều trích dẫn đến từng trang, nên bạn tự kiểm chứng được.",
+     "show": "Mỗi câu trả lời có\n*trích dẫn từng trang.*"
+    },
+    {
+     "say": "Cả video Du-túp cũng học được, tìm theo phụ đề, hỏi theo từng mốc thời gian.",
+     "show": "Cả *YouTube* cũng học được,\nhỏi theo mốc thời gian."
+    }
+   ]
+  },
+  {
+   "id": "book",
+   "label": "04 — SÁCH RIÊNG",
+   "phrases": [
+    {
+     "say": "Từ tài liệu của bạn, nó viết thành một cuốn sách riêng, có chương, có sơ đồ.",
+     "show": "Tài liệu → *cuốn sách riêng*\ncó chương, có sơ đồ."
+    },
+    {
+     "say": "Cuối mỗi phần có câu hỏi kiểm tra nhanh.",
+     "show": "Cuối mỗi phần:\n*kiểm tra nhanh.*"
+    }
+   ]
+  },
+  {
+   "id": "mastery",
+   "label": "05 — LỘ TRÌNH",
+   "phrases": [
+    {
+     "say": "Lộ trình thành thạo chia bài học thành từng mục tiêu nhỏ.",
+     "show": "*Lộ trình thành thạo:*\nchia nhỏ từng mục tiêu."
+    },
+    {
+     "say": "Chưa qua bài kiểm tra thì chưa mở bài tiếp, và nó nhắc bạn ôn lại đúng lúc.",
+     "show": "Chưa đạt thì chưa mở bài tiếp.\nCó *nhắc ôn lại* đúng lúc."
+    }
+   ]
+  },
+  {
+   "id": "memory",
+   "label": "06 — TRÍ NHỚ",
+   "phrases": [
+    {
+     "say": "Nó còn có trí nhớ ba lớp về việc học của bạn, xem được và sửa được.",
+     "show": "*Trí nhớ ba lớp* về việc học\ncủa bạn, xem và sửa được."
+    },
+    {
+     "say": "Càng học, nó càng nắm rõ bạn đang yếu chỗ nào.",
+     "show": "Càng học, nó càng biết\nbạn *yếu chỗ nào.*"
+    }
+   ]
+  },
+  {
+   "id": "install",
+   "label": "07 — CÀI ĐẶT",
+   "phrases": [
+    {
+     "say": "Cài bằng một lệnh Đóc-cơ, hoặc nhờ Clau cốt cài giúp.",
+     "show": "Cài bằng *một lệnh Docker*\nhoặc nhờ Claude Code cài giúp."
+    },
+    {
+     "say": "Bạn cần gắn khóa ây pi ai của một model, hoặc chạy model local bằng Ô-la-ma.",
+     "show": "Cần gắn *API key* của model\nhoặc chạy local bằng Ollama."
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "label": "08 — LINK",
+   "phrases": [
+    {
+     "say": "Link dự án mình để ngay trên màn hình nhé.",
+     "show": "Link dự án\nở *ngay trên màn hình.*"
+    },
+    {
+     "say": "Nhớ đăng ký kênh, để xem thêm nhiều công cụ ây ai hay nhé.",
+     "speed": 0.93,
+     "show": "Nhớ *đăng ký kênh*\nđể xem thêm công cụ AI."
+    }
+   ]
+  }
+ ]
+}

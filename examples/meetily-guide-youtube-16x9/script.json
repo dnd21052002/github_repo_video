@@ -1,0 +1,410 @@
+{
+ "scenes": [
+  {
+   "id": "hook",
+   "label": "01 — VẤN ĐỀ",
+   "layout": "card",
+   "phrases": [
+    {
+     "say": "Họp xong là quên sạch, ghi biên bản thì mất cả tiếng?",
+     "show": "Họp xong là quên sạch,\nghi biên bản *mất cả tiếng?*"
+    },
+    {
+     "say": "Hôm nay mình hướng dẫn chi tiết Mi-ti-li, thử với một cuộc họp tiếng Việt, và đo luôn số tô-ken.",
+     "show": "Hướng dẫn *Meetily* với họp tiếng Việt\nvà đo *số token* đã dùng"
+    }
+   ]
+  },
+  {
+   "id": "what",
+   "label": "02 — MEETILY LÀ GÌ",
+   "layout": "card",
+   "phrases": [
+    {
+     "say": "Mi-ti-li là ứng dụng ghi âm và ghi chú cuộc họp mã nguồn mở, chạy ngay trên máy tính của bạn.",
+     "show": "*Meetily:* ghi âm & ghi chú họp,\nmã nguồn mở, chạy trên máy bạn"
+    },
+    {
+     "say": "Chữ được phiên âm bằng Whisper hoặc Pa-ra-kít, còn tóm tắt dùng mô-đồ có sẵn trong app, hoặc Ollama, Clau, Grốc, OpenRouter.",
+     "show": "Phiên âm: *Whisper* hoặc *Parakeet*\nTóm tắt: model có sẵn hoặc API"
+    },
+    {
+     "say": "Bản Community giấy phép em ai ti, miễn phí.",
+     "show": "Bản *Community:* MIT, miễn phí"
+    }
+   ]
+  },
+  {
+   "id": "install",
+   "label": "03 — CÀI ĐẶT",
+   "layout": "card",
+   "phrases": [
+    {
+     "say": "Cài đặt: Windows tải bộ cài đuôi exe, macOS tải tệp dmg, đều ở trang Releases trên Ghít-hấp.",
+     "show": "*Windows:* bộ cài .exe\n*macOS:* tệp .dmg (trang Releases)"
+    },
+    {
+     "say": "Li-nức thì phải tự build từ mã nguồn. Mình build bản chỉ dùng xi pi diu, mất gần hai mươi phút trên máy bốn nhân.",
+     "show": "*Linux:* tự build từ mã nguồn\nmình build bản *CPU*, ~20 phút"
+    }
+   ]
+  },
+  {
+   "id": "first",
+   "label": "04 — MỞ LẦN ĐẦU",
+   "layout": "screen",
+   "phrases": [
+    {
+     "say": "Mở app lần đầu, bấm Get Started rồi Let's Go.",
+     "show": "Mở app: *Get Started* → *Let's Go*",
+     "src": [
+      1,
+      15
+     ],
+     "side": {
+      "k": "BƯỚC 1",
+      "v": "Get Started",
+      "s": "rồi bấm Let's Go"
+     }
+    },
+    {
+     "say": "App tải hai mô-đồ: phiên âm khoảng sáu trăm bảy mươi mê-ga-bai, và tóm tắt khoảng hai phẩy sáu gi-ga-bai.",
+     "show": "Tải 2 model: phiên âm *~670 MB*\ntóm tắt *~2,6 GB*",
+     "src": [
+      15,
+      49
+     ],
+     "side": {
+      "k": "TẢI LẦN ĐẦU",
+      "v": "670 MB + 2,6 GB",
+      "s": "phiên âm + tóm tắt"
+     }
+    },
+    {
+     "say": "Tải xong bấm Continue là vào màn hình chính.",
+     "show": "Tải xong → *Continue*",
+     "src": [
+      350,
+      357
+     ],
+     "side": {
+      "k": "XONG",
+      "v": "Continue",
+      "s": "vào màn hình chính"
+     }
+    }
+   ]
+  },
+  {
+   "id": "setup",
+   "label": "05 — CÀI MODEL TIẾNG VIỆT",
+   "layout": "screen",
+   "phrases": [
+    {
+     "say": "Vào Settings, mục Transcription. Mặc định là Pa-ra-kít, với tiếng Việt mình đổi sang Local Whisper.",
+     "show": "Settings → Transcription:\nđổi sang *Local Whisper*",
+     "src": [
+      357.5,
+      368
+     ],
+     "side": {
+      "k": "MẶC ĐỊNH",
+      "v": "Parakeet",
+      "s": "đổi sang Local Whisper"
+     }
+    },
+    {
+     "say": "Chọn loại Medium, khoảng năm trăm mê-ga-bai, cân bằng giữa chất lượng và tốc độ.",
+     "show": "Chọn *Medium* (~514 MB)\ncân bằng chất lượng & tốc độ",
+     "src": [
+      368,
+      382.5
+     ],
+     "side": {
+      "k": "WHISPER",
+      "v": "Medium",
+      "s": "514 MB · cân bằng"
+     }
+    },
+    {
+     "say": "Tab Summary cho thấy các mô-đồ tóm tắt tích hợp, mặc định là Quen ba phẩy năm, bốn tỉ tham số.",
+     "show": "Tab *Summary:* model tích hợp\nmặc định *Qwen 3.5 4B*",
+     "src": [
+      385.5,
+      395.5
+     ],
+     "side": {
+      "k": "TÓM TẮT",
+      "v": "Qwen 3.5 4B",
+      "s": "~2,6 GB · offline"
+     }
+    },
+    {
+     "say": "Về trang chủ, bấm Language và chọn Vietnamese, đừng để tự nhận diện vì app cảnh báo có thể sai.",
+     "show": "*Language → Vietnamese*\n(Auto Detect có thể sai)",
+     "src": [
+      396.5,
+      414
+     ],
+     "side": {
+      "k": "NGÔN NGỮ",
+      "v": "Vietnamese",
+      "s": "không dùng Auto Detect"
+     }
+    }
+   ]
+  },
+  {
+   "id": "rec",
+   "label": "06 — GHI ÂM THỬ",
+   "layout": "screen",
+   "phrases": [
+    {
+     "say": "Bấm nút micro để bắt đầu ghi; app nhắc bạn báo cho mọi người biết là đang ghi âm.",
+     "show": "Bấm *micro* — nhớ *báo mọi người*\nlà đang ghi âm",
+     "src": [
+      414,
+      428
+     ],
+     "side": {
+      "k": "GHI ÂM",
+      "v": "Nút micro",
+      "s": "nhớ báo mọi người"
+     }
+    },
+    {
+     "say": "Mình phát một cuộc họp mẫu dài sáu mươi bảy giây, hai người nói, do giọng đọc nhân tạo tạo ra.",
+     "show": "Họp mẫu *67 giây*, 2 người\n(*giọng AI tạo*, không phải họp thật)",
+     "src": [
+      428,
+      440
+     ],
+     "side": {
+      "k": "CUỘC HỌP MẪU",
+      "v": "67 giây",
+      "s": "2 giọng AI · không ồn"
+     }
+    },
+    {
+     "say": "Máy mình chỉ có xi pi diu bốn nhân, vừa chạy vừa quay màn hình, nên chữ ra chậm, khoảng một phút cho mỗi đoạn. Đoạn này mình tua nhanh.",
+     "show": "CPU *4 nhân*, không GPU: ~*1 phút/đoạn*\nđã *tua nhanh*",
+     "src": [
+      440,
+      1165
+     ],
+     "side": {
+      "k": "TỐC ĐỘ PHIÊN ÂM",
+      "v": "~1 phút/đoạn",
+      "s": "CPU 4 nhân + đang quay màn hình"
+     }
+    },
+    {
+     "say": "Mười ba đoạn chữ đã hiện ra. Bấm dừng, app lưu bản ghi và mở trang cuộc họp.",
+     "show": "Bấm *dừng* → app lưu *13 đoạn*\nvà mở trang cuộc họp",
+     "src": [
+      1166,
+      1180
+     ],
+     "side": {
+      "k": "KẾT QUẢ",
+      "v": "13 đoạn",
+      "s": "đã lưu vào máy"
+     }
+    }
+   ]
+  },
+  {
+   "id": "result",
+   "label": "07 — CHỮ TIẾNG VIỆT",
+   "layout": "screen",
+   "phrases": [
+    {
+     "say": "Kết quả: chữ tiếng Việt có dấu khá chuẩn, ngày tháng và số tiền đều đúng.",
+     "show": "Tiếng Việt có dấu khá chuẩn,\n*ngày & số tiền đúng*",
+     "still": 1199,
+     "zoom": "left",
+     "side": {
+      "k": "NHẬN XÉT",
+      "v": "Khá chuẩn",
+      "s": "ngày, số tiền đúng"
+     }
+    },
+    {
+     "say": "Mình đếm trên hai trăm sáu mươi mốt từ thì sai chín từ, tức khoảng ba phẩy bốn phần trăm.",
+     "show": "Sai *9/261 từ* ≈ *3,4%*\n(mình tự đối chiếu)",
+     "still": 1199,
+     "zoom": "left",
+     "side": {
+      "k": "TỶ LỆ SAI TỪ",
+      "v": "3,4%",
+      "s": "9 lỗi / 261 từ"
+     }
+    },
+    {
+     "say": "Lỗi gồm: đặt thành đạt, ngân sách thành năn sách, chị Mai thành chị ma, và vài từ khác.",
+     "show": "Lỗi: *đặt→đạt*, *ngân→năn*,\n*Mai→ma*, *thứ sáu→thử sáu*",
+     "still": 1199,
+     "zoom": "left",
+     "side": {
+      "k": "LỖI THẬT",
+      "v": "đặt → đạt",
+      "s": "ngân → năn · Mai → ma"
+     }
+    },
+    {
+     "say": "Nhưng đây là giọng đọc sạch, không ồn, không nói chồng nhau, nên họp thật có thể sai nhiều hơn.",
+     "show": "Giọng AI sạch, không ồn:\nhọp thật *có thể sai nhiều hơn*",
+     "still": 1199,
+     "zoom": "left",
+     "side": {
+      "k": "LƯU Ý",
+      "v": "Họp thật",
+      "s": "có thể sai nhiều hơn"
+     }
+    }
+   ]
+  },
+  {
+   "id": "summary",
+   "label": "08 — TÓM TẮT",
+   "layout": "screen",
+   "phrases": [
+    {
+     "say": "Bấm AI Model để xem mô-đồ tóm tắt: có Gem-ma, Quen, tải về dùng offline.",
+     "show": "*AI Model:* Gemma, Qwen…\nchạy *offline* trên máy",
+     "src": [
+      1180,
+      1192
+     ],
+     "side": {
+      "k": "AI MODEL",
+      "v": "Gemma · Qwen",
+      "s": "tải về, chạy offline"
+     }
+    },
+    {
+     "say": "Mục Template cho chọn mẫu ghi chú: họp hằng ngày, đồng bộ dự án, họp lại, họp với khách và ghi chú tiêu chuẩn.",
+     "show": "*Template:* Daily Standup,\nProject Sync, Retrospective…",
+     "src": [
+      1192,
+      1199
+     ],
+     "side": {
+      "k": "TEMPLATE",
+      "v": "6 mẫu",
+      "s": "Standup · Sync · Client…"
+     }
+    },
+    {
+     "say": "Bấm Generate Summary. Mô-đồ chạy trên xi pi diu rất lâu, mình tua nhanh.",
+     "show": "*Generate Summary*\n(CPU chạy lâu — *tua nhanh*)",
+     "src": [
+      1199,
+      2170
+     ],
+     "side": {
+      "k": "TẠO TÓM TẮT",
+      "v": "~16 phút",
+      "s": "CPU 4 nhân + đang quay"
+     }
+    },
+    {
+     "say": "Kết quả là bản tóm tắt tiếng Việt, có quyết định chính, bảng việc cần làm và các điểm nổi bật.",
+     "show": "Kết quả: *quyết định chính*,\n*bảng việc cần làm*, điểm nổi bật",
+     "src": [
+      2172,
+      2190
+     ],
+     "side": {
+      "k": "KẾT QUẢ",
+      "v": "Có bảng việc",
+      "s": "quyết định · hạn chót"
+     }
+    },
+    {
+     "say": "Nhưng mình soát lại thấy sai: thứ Sáu bị viết thành thứ Bảy, thứ Hai thành Chủ nhật, và tên người phụ trách không được điền.",
+     "show": "Có lỗi: *thứ Sáu→thứ Bảy*,\n*thứ Hai→Chủ nhật*, tên người *trống*",
+     "still": 2188,
+     "zoom": "right",
+     "side": {
+      "k": "SOÁT LẠI",
+      "v": "Sai thứ",
+      "s": "tên người phụ trách trống"
+     }
+    }
+   ]
+  },
+  {
+   "id": "tokens",
+   "label": "09 — SỐ TOKEN",
+   "layout": "tokens",
+   "phrases": [
+    {
+     "say": "Giờ đến số tô-ken. Với ngôn ngữ không phải tiếng Anh, Mi-ti-li gọi mô-đồ hai lượt: lượt một viết bản tóm tắt theo mẫu, lượt hai dịch sang tiếng Việt.",
+     "show": "Tiếng Việt = *2 lượt* gọi model:\n① viết tóm tắt ② dịch sang Việt",
+     "step": 0
+    },
+    {
+     "say": "Lượt một: tám trăm năm mươi lăm tô-ken vào, sáu trăm bốn mươi tám tô-ken ra.",
+     "show": "Lượt 1: *855* vào · *648* ra",
+     "step": 1
+    },
+    {
+     "say": "Lượt hai: tám trăm ba mươi chín vào, tám trăm bốn mươi chín ra.",
+     "show": "Lượt 2: *839* vào · *849* ra",
+     "step": 2
+    },
+    {
+     "say": "Tổng cộng khoảng ba nghìn một trăm chín mươi tô-ken, cho một cuộc họp dài hơn một phút.",
+     "show": "Tổng *3.191 token*\ncho họp ~1 phút (13 đoạn)",
+     "step": 3
+    },
+    {
+     "say": "Tốc độ chỉ khoảng hai tô-ken mỗi giây khi vừa chạy vừa quay màn hình. Lần thử trước không quay thì khoảng bốn, tổng khoảng ba nghìn tô-ken.",
+     "show": "Tốc độ *~2 token/giây* (đang quay)\nlần thử trước: ~*4/giây*, tổng ~3.030",
+     "step": 4
+    },
+    {
+     "say": "Chạy local nên không tốn tiền API. Nếu dùng API, bạn trả theo đúng những con số này. Họp một giờ thì tăng khoảng năm mươi lần, đó là ước tính của mình, chưa đo.",
+     "show": "Local: *không tốn phí API*.\nHọp 1 giờ ≈ ×50 (*ước tính, chưa đo*)",
+     "step": 5
+    }
+   ]
+  },
+  {
+   "id": "note",
+   "label": "10 — LƯU Ý",
+   "layout": "card",
+   "phrases": [
+    {
+     "say": "Lưu ý một: chất lượng tiếng Việt phụ thuộc giọng, tiếng ồn và mô-đồ; hãy thử một đoạn ngắn trước.",
+     "show": "Chất lượng tùy *giọng, tiếng ồn,*\n*model* — thử đoạn ngắn trước"
+    },
+    {
+     "say": "Lưu ý hai: không có máy mạnh thì phiên âm và tóm tắt rất chậm; có gi pi diu sẽ nhanh hơn nhiều.",
+     "show": "Máy CPU thì *rất chậm*;\ncó *GPU* sẽ nhanh hơn"
+    },
+    {
+     "say": "Lưu ý ba: luôn báo cho mọi người biết khi ghi âm cuộc họp, và kiểm tra lại bản tóm tắt trước khi gửi.",
+     "show": "*Báo mọi người* khi ghi âm\nvà *soát lại* bản tóm tắt"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "label": "11 — LINK",
+   "layout": "card",
+   "phrases": [
+    {
+     "say": "Link dự án mình để ngay trên màn hình nhé.",
+     "show": "Link dự án\nở *ngay trên màn hình.*"
+    },
+    {
+     "say": "Nhớ đăng ký kênh, để xem thêm nhiều công cụ ây ai hay nhé.",
+     "show": "Nhớ *đăng ký kênh*\nđể xem thêm công cụ AI.",
+     "speed": 0.93
+    }
+   ]
+  }
+ ]
+}

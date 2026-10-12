@@ -1,0 +1,7 @@
+Caption (đúng format kênh):
+Mỗi AI coding agent một cửa sổ terminal, lần thứ tư giải thích lại context? Giao việc cho AI như giao cho đồng đội 👇 #aiunbox0026 #Multica #AIagent #ClaudeCode #opensource #congcuAI
+
+Lưu ý:
+- Bật nhãn "Nội dung do AI tạo" (giọng đọc TTS).
+- Link repo để ở bio / comment ghim, không dán trong caption.
+- Ảnh bìa: build/cover_v2.png

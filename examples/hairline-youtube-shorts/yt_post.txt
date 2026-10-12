@@ -1,0 +1,16 @@
+TIÊU ĐỀ (36 ký tự):
+Hairline: 33 hình isometric nét mảnh
+
+MÔ TẢ:
+Web toàn ảnh tĩnh, nhìn là thấy nhạt? Hairline: 33 hình isometric vẽ bằng nét mảnh, phản ứng theo con trỏ chuột, MIT, không phụ thuộc thư viện nào.
+
+Link repo: github.com/lucasmarkes/hairline
+(Link trong Shorts không bấm được: để dạng chữ trong mô tả, video đã hiện link trên màn hình.)
+
+Lưu ý thật lòng:
+- Cài bằng npm i @lucasmarkes/hairline; nhớ đặt --hairline-plate trùng màu nền trang.
+- Cảnh demo là hình thật do chính thư viện vẽ.
+
+#Shorts #Hairline #React #WebDesign
+
+Khi đăng: bật mục 'Nội dung bị thay đổi hoặc tổng hợp' = Có (giọng đọc TTS). Kênh: AIUnBox0026.

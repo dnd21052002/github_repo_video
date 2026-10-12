@@ -1,0 +1,22 @@
+{
+ "scenes": [
+  {"id": "hook", "label": "01 — VẤN ĐỀ", "layout": "card",
+   "phrases": [
+    {"say": "Hỏi ây ai một câu khó, nhận về cả bức tường chữ?", "show": "Hỏi AI một câu khó,\nnhận về *bức tường chữ?*"},
+    {"say": "Đọc xong vẫn chưa hiểu các phần liên quan với nhau thế nào.", "show": "Đọc xong vẫn chưa hiểu\n*chúng liên quan thế nào.*"}
+   ]},
+  {"id": "intro", "label": "02 — GIỚI THIỆU", "layout": "card",
+   "phrases": [
+    {"say": "Tên-repo là công cụ mã nguồn mở, giúp làm việc X.", "show": "*TênRepo:* công cụ mở\ngiúp làm X."}
+   ]},
+  {"id": "demo", "label": "03 — XEM THỰC TẾ", "layout": "screen",
+   "phrases": [
+    {"say": "Đây là cảnh quay thật của công cụ.", "show": "Cảnh *quay thật*\ncủa công cụ.", "src": [10, 25], "cx": 430, "tag": "DEMO THẬT"}
+   ]},
+  {"id": "cta", "label": "04 — LINK", "layout": "card",
+   "phrases": [
+    {"say": "Link dự án mình để ngay trên màn hình nhé.", "show": "Link dự án\nở *ngay trên màn hình.*"},
+    {"say": "Nhớ theo dõi kênh, để xem thêm nhiều công cụ ây ai hay nhé.", "show": "Nhớ *theo dõi kênh*\nđể xem thêm công cụ AI.", "speed": 0.93}
+   ]}
+ ]
+}

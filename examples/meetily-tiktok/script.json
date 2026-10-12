@@ -1,0 +1,111 @@
+{
+ "scenes": [
+  {
+   "id": "hook",
+   "label": "01 — VẤN ĐỀ",
+   "phrases": [
+    {
+     "say": "Cuộc họp xong là quên sạch, ghi biên bản thì mất cả tiếng?",
+     "show": "Họp xong là quên sạch,\nghi biên bản *mất cả tiếng?*"
+    },
+    {
+     "say": "Còn dùng ứng dụng ghi âm trực tuyến, thì bản ghi cuộc họp nằm trên máy chủ của ai?",
+     "show": "Dùng app ghi âm online,\nbản ghi *nằm trên máy chủ ai?*"
+    }
+   ]
+  },
+  {
+   "id": "intro",
+   "label": "02 — GIỚI THIỆU",
+   "phrases": [
+    {
+     "say": "Mi-ti-li là một repo trên Ghít-hấp, trợ lý họp ây ai chạy hoàn toàn trên máy bạn.",
+     "show": "*Meetily:* trợ lý họp AI\nchạy hoàn toàn trên máy bạn."
+    },
+    {
+     "say": "Mã nguồn mở, giấy phép em ai ti, bản cộng đồng miễn phí.",
+     "show": "Mã nguồn mở, giấy phép *MIT.*\nBản cộng đồng *miễn phí.*"
+    }
+   ]
+  },
+  {
+   "id": "live",
+   "label": "03 — XEM TRỰC TIẾP",
+   "phrases": [
+    {
+     "say": "Bấm ghi, nó vừa nghe vừa chép lời thành chữ ngay lúc bạn họp.",
+     "show": "Bấm ghi, nó *chép lời thành chữ*\nngay lúc bạn họp."
+    },
+    {
+     "say": "Thu được cả micro lẫn âm thanh trong máy, nên cuộc họp trên nền tảng nào cũng được.",
+     "show": "Thu *micro + âm thanh máy*,\nhọp nền tảng nào cũng được."
+    },
+    {
+     "say": "Có thể chọn tiếng Việt, dùng mô hình Whisper chạy ngay trên máy.",
+     "show": "Có chọn *tiếng Việt*,\nmô hình Whisper chạy trên máy."
+    }
+   ]
+  },
+  {
+   "id": "summary",
+   "label": "04 — TÓM TẮT",
+   "phrases": [
+    {
+     "say": "Họp xong, nó viết sẵn tóm tắt, các quyết định chính, và bảng việc cần làm.",
+     "show": "Họp xong có *tóm tắt*,\nquyết định, *việc cần làm.*"
+    },
+    {
+     "say": "Bộ tóm tắt dùng Ô-la-ma chạy local, hoặc nối dịch vụ khác nếu bạn muốn.",
+     "show": "Tóm tắt bằng *Ollama*\nchạy local, hay nối khác."
+    },
+    {
+     "say": "Có sẵn bản thu âm bài giảng cũng nhập vào được.",
+     "show": "Có sẵn bản thu âm bài giảng?\n*Nhập vào luôn.*"
+    }
+   ]
+  },
+  {
+   "id": "privacy",
+   "label": "05 — RIÊNG TƯ",
+   "phrases": [
+    {
+     "say": "Dùng Ô-la-ma thì ghi âm và bản chép chữ đều nằm lại trên máy bạn.",
+     "show": "Dùng Ollama: ghi âm\n*nằm lại trên máy bạn.*"
+    },
+    {
+     "say": "Nó còn nhắc bạn báo cho mọi người biết là cuộc họp đang được ghi âm.",
+     "show": "Còn nhắc bạn *báo mọi người*\nlà đang ghi âm."
+    }
+   ]
+  },
+  {
+   "id": "install",
+   "label": "06 — CÀI ĐẶT",
+   "phrases": [
+    {
+     "say": "Windows và macOS có bộ cài đặt sẵn, Linux thì phải tự build.",
+     "show": "*Windows, macOS:* cài sẵn.\nLinux: tự build."
+    },
+    {
+     "say": "Muốn tóm tắt chạy local thì cài thêm Ô-la-ma, máy nên mạnh một chút.",
+     "show": "Tóm tắt local: cài *Ollama.*\nMáy nên mạnh một chút."
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "label": "07 — LINK",
+   "phrases": [
+    {
+     "say": "Link dự án mình để ngay trên màn hình nhé.",
+     "show": "Link dự án\nở *ngay trên màn hình.*"
+    },
+    {
+     "say": "Nhớ theo dõi kênh, để xem thêm nhiều công cụ ây ai hay nhé.",
+     "speed": 0.82,
+     "show": "Nhớ *theo dõi kênh*\nđể xem thêm công cụ AI."
+    }
+   ]
+  }
+ ]
+}

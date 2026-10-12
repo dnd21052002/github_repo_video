@@ -1,0 +1,34 @@
+TIÊU ĐỀ (38 ký tự):
+Meetily: ghi họp tiếng Việt + số token
+
+MÔ TẢ:
+Hướng dẫn chi tiết Meetily: ứng dụng ghi âm và ghi chú cuộc họp mã nguồn mở, chạy trên máy bạn. Mình thử với một cuộc họp tiếng Việt, từ cài đặt, phiên âm bằng Whisper, tóm tắt bằng model có sẵn trong app, đến số token đã dùng.
+
+Link repo: github.com/Zackriya-Solutions/meetily
+
+Chương:
+0:00 Giới thiệu Meetily
+0:23 Cài đặt (Windows, macOS, Linux)
+0:35 Mở app lần đầu
+0:46 Cài model & chọn tiếng Việt
+1:07 Ghi âm cuộc họp thử
+1:28 Kết quả phiên âm tiếng Việt
+1:46 Tạo bản tóm tắt
+2:11 Mức token đã dùng
+2:46 Lưu ý & kết
+
+Số liệu mình đo trong video (máy CPU 4 nhân, không GPU, vừa chạy vừa quay màn hình):
+- Phiên âm (Whisper Medium, ngôn ngữ Vietnamese): sai 9/261 từ ≈ 3,4% trên cuộc họp mẫu 67 giây
+- Tóm tắt (Qwen 3.5 4B tích hợp): lượt 1 = 855 vào / 648 ra, lượt 2 (dịch sang tiếng Việt) = 839 vào / 849 ra, tổng 3.191 token
+- Tốc độ ~1,8–1,9 token/giây khi đang quay màn hình (lần thử trước không quay: ~4 token/giây, tổng ~3.030 token)
+- Ước tính họp 1 giờ ≈ ×50 là ước tính, chưa đo
+
+Lưu ý thật lòng:
+- Cuộc họp mẫu là giọng AI (2 giọng, sạch, không ồn); họp thật có thể sai nhiều hơn
+- Bản tóm tắt có lỗi: thứ Sáu → thứ Bảy, thứ Hai → Chủ nhật, tên người phụ trách bị bỏ trống; hãy soát lại trước khi gửi
+- Hầu hết thời gian chờ đã được tua nhanh (có ghi trên màn hình)
+- Luôn báo cho mọi người biết khi ghi âm cuộc họp
+
+#Meetily #AIUnBox #OpenSource #GhiAmCuocHop
+
+Khi đăng: bật 'Nội dung bị thay đổi hoặc tổng hợp' = Có (giọng đọc TTS và cuộc họp mẫu do AI tạo). Kênh: AIUnBox0026.

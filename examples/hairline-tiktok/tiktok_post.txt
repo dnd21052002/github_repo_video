@@ -1,0 +1,9 @@
+Caption:
+Web toàn ảnh tĩnh, nhìn là thấy nhạt? Hairline: 33 hình isometric vẽ bằng nét mảnh, biết phản ứng theo con trỏ chuột, MIT, không phụ thuộc thư viện nào 👇 #aiunbox0026 #Hairline #React #frontend #webdesign #congcuAI
+
+Lưu ý khi đăng:
+- Bật nhãn "Nội dung do AI tạo" (giọng đọc TTS).
+- Link repo để ở bio / comment ghim: github.com/lucasmarkes/hairline (trang demo: hairline.lucasmarkes.com).
+- Ảnh bìa: build/cover.png
+- Ghim comment: cài bằng npm i @lucasmarkes/hairline; dùng được với React hoặc bất cứ thứ gì có DOM; nhớ đặt --hairline-plate trùng màu nền trang.
+- Cảnh demo trong video là hình thật do chính thư viện vẽ (mình chạy trình duyệt và rê chuột theo kịch bản), không phải ảnh dựng.

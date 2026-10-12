@@ -1,0 +1,12 @@
+Caption:
+Tiền nằm rải rác ở ngân hàng, sàn, quỹ, khoản vay... bạn có biết mình thực sự có bao nhiêu? Aurelio: app quản lý tài sản chạy ngay trên máy, có cố vấn AI hỏi đáp trên chính số liệu của bạn, MIT 👇 #aiunbox0026 #Aurelio #taichinhcanhan #opensource #congcuAI
+
+Lưu ý khi đăng:
+- Bật nhãn "Nội dung do AI tạo" (giọng đọc TTS).
+- Link repo để ở bio / comment ghim: github.com/LosaLosSantos/aurelio-finance
+- Ảnh bìa: build/cover.png
+- Đây là nội dung giới thiệu công cụ, không phải lời khuyên đầu tư/tài chính.
+- Ghim comment: thử bằng dữ liệu giả `./start.sh --demo` (Windows: `./start.ps1 -Demo`; nếu PowerShell chặn script: `powershell -ExecutionPolicy Bypass -File .\start.ps1 -Demo`). Cần Git, Node 22+, uv.
+- Phần AI là tùy chọn, đi qua OpenRouter bằng khóa của bạn; chi phí trong video lấy từ README (mô-đồ mặc định Claude Opus 5.5, đo tháng 10/2026).
+- Ví dụ trong app dùng euro và quỹ ETF châu Âu; chưa kiểm tra mức phù hợp với thị trường Việt Nam.
+- Cảnh "Ask Aurelio" và "nhìn xuyên quỹ" là hoạt ảnh minh họa từ chính repo (có ghi trên slide); cảnh bảng tổng quan và danh mục là bản quay thật app ở chế độ demo (dữ liệu giả).

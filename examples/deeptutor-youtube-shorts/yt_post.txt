@@ -1,0 +1,15 @@
+TIÊU ĐỀ (41 ký tự):
+DeepTutor: gia sư AI trích dẫn từng trang
+
+MÔ TẢ:
+Hỏi AI về tài liệu dày mà nó trả lời bịa? DeepTutor là gia sư AI mã nguồn mở: trích dẫn từng trang, có lộ trình ôn tập.
+
+Link repo: github.com/HKUDS/DeepTutor
+(Link trong Shorts không bấm được: để dạng chữ trong mô tả, video đã hiện link trên màn hình.)
+
+Lưu ý thật lòng:
+- Cần tự gắn API key của model (hoặc chạy Ollama local); giao diện chưa có tiếng Việt.
+
+#Shorts #DeepTutor #AIhoctap #OpenSource
+
+Khi đăng: bật mục 'Nội dung bị thay đổi hoặc tổng hợp' = Có (giọng đọc TTS). Kênh: AIUnBox0026.

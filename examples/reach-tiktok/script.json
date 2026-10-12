@@ -1,0 +1,113 @@
+{
+ "scenes": [
+  {
+   "id": "hook",
+   "label": "01 — VẤN ĐỀ",
+   "phrases": [
+    {
+     "say": "Bạn nhờ ây ai xem giúp một video Diu-túp, nó bảo không xem được?",
+     "show": "Nhờ AI xem video YouTube,\n*nó bảo không xem được?*"
+    },
+    {
+     "say": "Gửi link bài đăng trên mạng xã hội, nó cũng chịu thua.",
+     "show": "Gửi link mạng xã hội,\n*nó cũng chịu thua.*"
+    }
+   ]
+  },
+  {
+   "id": "intro",
+   "label": "02 — GIỚI THIỆU",
+   "phrases": [
+    {
+     "say": "Agent Reach là công cụ mã nguồn mở, giúp agent đọc và tìm kiếm trên mạng.",
+     "show": "*Agent Reach:* cho agent\nđọc và tìm trên mạng."
+    },
+    {
+     "say": "Giấy phép em ai ti, viết bằng Pai-thon.",
+     "show": "*MIT,* viết bằng Python."
+    }
+   ]
+  },
+  {
+   "id": "where",
+   "label": "03 — ĐỌC ĐƯỢC GÌ",
+   "phrases": [
+    {
+     "say": "Có trang web, GitHub, phụ đề Diu-túp, rờ ét ét, và cả Rét-đít, Tuýt-tơ.",
+     "show": "Web, GitHub, *YouTube,*\nRSS, Reddit, Twitter…"
+    },
+    {
+     "say": "Nhiều thứ dùng được ngay, không cần cấu hình.",
+     "show": "Nhiều thứ *dùng ngay,*\nkhông cần cấu hình."
+    }
+   ]
+  },
+  {
+   "id": "cookie",
+   "label": "04 — CẦN ĐĂNG NHẬP",
+   "phrases": [
+    {
+     "say": "Còn Tuýt-tơ hay Rét-đít thì cần đăng nhập, bằng cúc-ki lấy từ trình duyệt của bạn.",
+     "show": "Twitter, Reddit cần\n*đăng nhập bằng cookie.*"
+    },
+    {
+     "say": "Theo repo, cúc-ki chỉ lưu trên máy bạn.",
+     "show": "Theo repo: cookie\n*chỉ lưu trên máy bạn.*"
+    }
+   ]
+  },
+  {
+   "id": "install",
+   "label": "05 — CÀI ĐẶT",
+   "phrases": [
+    {
+     "say": "Cách cài: dán một dòng cho agent của bạn, nó tự cài và kiểm tra.",
+     "show": "Dán *một dòng*\ncho agent là xong."
+    },
+    {
+     "say": "Lệnh đốc-tơ sẽ báo cái nào chạy được, cái nào chưa.",
+     "show": "Lệnh *doctor* báo\ncái nào chạy được."
+    }
+   ]
+  },
+  {
+   "id": "use",
+   "label": "06 — DÙNG VÀO VIỆC GÌ",
+   "phrases": [
+    {
+     "say": "Sinh viên có thể nhờ agent tóm tắt video bài giảng, nếu video có phụ đề.",
+     "show": "Tóm tắt *video bài giảng*\n(nếu có phụ đề)."
+    },
+    {
+     "say": "Hoặc gom ý kiến của mọi người về một sản phẩm trước khi mua.",
+     "show": "Gom *ý kiến mọi người*\ntrước khi mua."
+    }
+   ]
+  },
+  {
+   "id": "note",
+   "label": "07 — LƯU Ý",
+   "phrases": [
+    {
+     "say": "Lưu ý, đọc mạng xã hội cần tài khoản của bạn, nên hãy tuân thủ điều khoản từng nền tảng.",
+     "show": "Lưu ý: *tài khoản của bạn,*\ntuân thủ điều khoản."
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "label": "08 — LINK",
+   "phrases": [
+    {
+     "say": "Link dự án mình để ngay trên màn hình nhé.",
+     "show": "Link dự án\nở *ngay trên màn hình.*"
+    },
+    {
+     "say": "Nhớ theo dõi kênh, để xem thêm nhiều công cụ ây ai hay nhé.",
+     "show": "Nhớ *theo dõi kênh*\nđể xem thêm công cụ AI.",
+     "speed": 0.93
+    }
+   ]
+  }
+ ]
+}

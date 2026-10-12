@@ -1,0 +1,30 @@
+<!doctype html><meta charset=utf-8>
+<style>
+@font-face{font-family:JB;font-weight:500;src:url(fonts/jetbrains-mono-latin-500-normal.woff2)}
+@font-face{font-family:JB;font-weight:700;src:url(fonts/jetbrains-mono-latin-700-normal.woff2)}
+html,body{margin:0;width:840px;height:672px;overflow:hidden;background:#0E2A47}
+body{--hairline-plate:#0E2A47;--hairline-hi:#EAF5FF;--hairline-edge:#9CC9F5;--hairline-mid:#5C8FC4;--hairline-lo:#27506F;--hairline-stroke:1.1;font-family:JB,monospace;color:#9CC9F5;
+ background-image:linear-gradient(rgba(150,200,255,.12) 1.5px,transparent 1.5px),linear-gradient(90deg,rgba(150,200,255,.12) 1.5px,transparent 1.5px);background-size:42px 42px}
+#stage{position:absolute;left:-21px;top:-17px;width:882px;height:706px}
+#name{position:absolute;left:24px;top:20px;font-weight:700;font-size:26px;letter-spacing:.06em;color:#EAF5FF;text-transform:uppercase}
+#idx{position:absolute;right:24px;top:22px;font-size:22px;color:#6FA5DA}
+#read{position:absolute;right:24px;bottom:20px;font-size:24px;color:#FFD166;font-weight:700}
+#cur{position:absolute;width:26px;height:26px;margin:-13px 0 0 -13px;border:3px solid #FFD166;border-radius:50%;pointer-events:none;box-shadow:0 0 0 6px rgba(255,209,102,.18);left:-100px;top:-100px}
+</style>
+<div id=stage></div><div id=name></div><div id=idx></div><div id=read></div><div id=cur></div>
+<script type=module>
+import * as H from './node_modules/@lucasmarkes/hairline/dist/index.js';
+let fig=null;
+window.mountFigure=(name,idx,total,opts={})=>{
+  if(fig){fig.destroy();fig=null}
+  const el=document.getElementById('stage'); el.innerHTML='';
+  document.getElementById('name').textContent=name;
+  document.getElementById('idx').textContent=idx+' / '+total;
+  document.getElementById('read').textContent='';
+  fig=H[name](el,{intensity:0.7,theme:'dark',onRead:t=>{document.getElementById('read').textContent=t},...opts});
+  return Object.keys(H).length;
+};
+window.setCursor=(x,y,show)=>{const c=document.getElementById('cur');c.style.left=x+'px';c.style.top=y+'px';c.style.opacity=show?1:0};
+window.setFade=v=>{document.getElementById('stage').style.opacity=v};
+window.ready=true;
+</script>
