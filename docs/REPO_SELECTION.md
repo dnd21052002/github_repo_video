@@ -20,3 +20,4 @@
 
 ## Chủ kênh đã bác (đừng đề xuất lại)
 VieNeu-TTS, Umi-OCR, ppt-master (và OfficeCLI đã có video riêng của kênh).
+| LocalSend | localsend/localsend | Apache 2.0, gửi tập tin giữa thiết bị cùng mạng; có tiếng Việt (331/336 chuỗi, tự đếm); hình là ảnh trang chủ, chưa chạy thật |

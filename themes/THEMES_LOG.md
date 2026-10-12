@@ -22,3 +22,6 @@ sunrise / terrazzo / slate-hex / sọc chéo tím / ô vuông xanh / cung tròn 
 
 ## Bản YouTube Shorts (tất cả video)
 Cùng họa tiết bản TikTok, xoay tông hue 30–260° (khác nhau từng video).
+
+## localsend-tiktok
+chấm bán sắc cam / teal hình tròn / sóng / trời xanh / mạng lưới tối / vé vàng / gạch đỏ / cung tròn teal.

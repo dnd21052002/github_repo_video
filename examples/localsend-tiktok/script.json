@@ -1,0 +1,45 @@
+{
+ "scenes": [
+  {"id": "hook", "label": "01 — VẤN ĐỀ",
+   "phrases": [
+    {"say": "Muốn chuyển ảnh từ điện thoại sang máy tính, mà phải gửi qua Da-lô, hay email cho chính mình?", "show": "Chuyển ảnh qua Zalo,\n*email cho chính mình?*"},
+    {"say": "Trong khi hai thiết bị đang ngồi ngay cạnh nhau.", "show": "Trong khi 2 thiết bị\n*ngồi ngay cạnh nhau.*"}
+   ]},
+  {"id": "intro", "label": "02 — GIỚI THIỆU",
+   "phrases": [
+    {"say": "Lô-cồ Sen là ứng dụng mã nguồn mở, miễn phí, để gửi tập tin và tin nhắn giữa các thiết bị ở gần.", "show": "*LocalSend:* gửi tập tin\ngiữa thiết bị ở gần."},
+    {"say": "Giấy phép A-pa-chi hai chấm không, và không cần internet.", "show": "*Apache 2.0,*\nkhông cần internet."}
+   ]},
+  {"id": "where", "label": "03 — CHẠY Ở ĐÂU",
+   "phrases": [
+    {"say": "Có cho Windows, macOS, Li-nức, Android và iOS.", "show": "Windows, macOS, Linux,\n*Android, iOS.*"},
+    {"say": "Nên điện thoại và máy tính gửi qua lại được với nhau.", "show": "Điện thoại ↔ máy tính\n*gửi qua lại được.*"},
+    {"say": "Giao diện cũng có bản dịch tiếng Việt.", "show": "Có *bản dịch*\ntiếng Việt."}
+   ]},
+  {"id": "demo", "label": "04 — XEM THỰC TẾ",
+   "phrases": [
+    {"say": "Đây là ảnh từ trang chủ dự án, lúc máy tính đang nhận ba tập tin.", "show": "Ảnh *trang chủ dự án:*\nmáy đang nhận 3 tập tin."},
+    {"say": "Bên điện thoại cũng hiện tiến độ từng tập tin.", "show": "Điện thoại cũng hiện\n*tiến độ từng tập tin.*"}
+   ]},
+  {"id": "how", "label": "05 — CÁCH HOẠT ĐỘNG",
+   "phrases": [
+    {"say": "Theo repo, các máy nói chuyện trực tiếp với nhau trong mạng cục bộ, mã hóa bằng hát-tê-tê-pê-ét.", "show": "Máy nói chuyện *trực tiếp,*\nmã hóa bằng HTTPS."},
+    {"say": "Không cần máy chủ của bên thứ ba.", "show": "Không cần *máy chủ*\ncủa bên thứ ba."}
+   ]},
+  {"id": "install", "label": "06 — CÀI ĐẶT",
+   "phrases": [
+    {"say": "Cài từ cửa hàng ứng dụng, hoặc trình quản lý gói, vì app không có tự cập nhật.", "show": "Cài từ *cửa hàng app*\nhoặc trình quản lý gói."},
+    {"say": "Windows có Win-get, macOS có Hôm-briu.", "show": "Windows: *winget*\nmacOS: *Homebrew*"}
+   ]},
+  {"id": "note", "label": "07 — LƯU Ý",
+   "phrases": [
+    {"say": "Nhưng hai máy phải cùng một mạng.", "show": "Hai máy phải\n*cùng một mạng.*"},
+    {"say": "Không thấy nhau, thường do router bật cách ly thiết bị, nhất là mạng khách.", "show": "Không thấy nhau?\n*Router cách ly thiết bị.*"}
+   ]},
+  {"id": "cta", "label": "08 — LINK",
+   "phrases": [
+    {"say": "Link dự án mình để ngay trên màn hình nhé.", "show": "Link dự án\nở *ngay trên màn hình.*"},
+    {"say": "Nhớ theo dõi kênh, để xem thêm nhiều công cụ ây ai hay nhé.", "show": "Nhớ *theo dõi kênh*\nđể xem thêm công cụ AI.", "speed": 0.93}
+   ]}
+ ]
+}

@@ -78,6 +78,10 @@
 - YouTube: tiêu đề NGẮN (≤ ~40 ký tự), **đúng 4 hashtag**, link dạng chữ trong mô tả, bật mục "nội dung bị thay đổi hoặc tổng hợp", video dài có chương (timestamp).
 - Bản YouTube Shorts: bố cục thu nhỏ + lùi vào trong (tránh thanh/nút của Shorts), đổi handle/CTA, **không đăng cùng lúc** với bản TikTok (tránh bị coi là nội dung lặp).
 
+## 7b. Bài đăng NGẮN (chủ kênh nhắc 12/10/2026)
+- Bài đăng (TikTok/YouTube) **ngắn, ≤ ~550 ký tự**: 1 dòng hook + 1 dòng giới thiệu + 1 dòng lưu ý thật (kể cả "chưa tự chạy thử" nếu vậy) + dòng link + hashtag + nhãn AI. KHÔNG liệt kê dài giấy phép/hệ điều hành/chi tiết kỹ thuật đã nói trong video. Mẫu: `examples/localsend-tiktok/tiktok_post.txt`.
+- TikTok: 4 hashtag là đủ (mẫu LocalSend).
+
 ## 8. Giao tiếp với chủ kênh
 - Trả lời bình luận hộ chủ kênh: ngắn gọn, giọng người thật, không văn mẫu như bot.
 - Báo kết quả: nêu rõ cái gì đã kiểm tra thật, cái gì chưa (chưa nghe lại giọng, chưa xem trên app thật…).

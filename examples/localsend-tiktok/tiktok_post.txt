@@ -1,0 +1,9 @@
+Chuyển ảnh điện thoại sang máy tính mà phải gửi qua Zalo, email? 📲
+LocalSend: mã nguồn mở, miễn phí, gửi tập tin giữa thiết bị ở gần, không cần internet. Có tiếng Việt.
+
+⚠️ Hai máy phải cùng mạng. Mình chưa tự chạy thử, hình là ảnh từ trang chủ dự án.
+
+Link repo: xem trên màn hình video / ghim ở bình luận (github.com/localsend/localsend)
+
+#aiunbox0026 #localsend #opensource #congcuai
+Nội dung có sử dụng AI hỗ trợ tạo (giọng đọc & hình ảnh).
