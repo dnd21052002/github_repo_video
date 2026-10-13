@@ -28,6 +28,8 @@
 | Groq | Grốc |
 | MB / GB | mê-ga-bai / gi-ga-bai |
 | RSS | rờ ét ét |
+| Design | Đì-giai (không viết "Đi-zai", TTS đọc thành "đi gi") |
+| Diagram | Đai-a-gram |
 
 Đọc nguyên (viết thường, TTS đọc ổn): isometric, npm, npx, commit, skill, HTML, Whisper, Ollama, OpenRouter, Git, uv, Node.js, Windows, macOS, MP4, WebM, "Answer me with HTML", "3Blue1Brown", Python (đôi khi viết "Pai-thon").
 
