@@ -17,6 +17,7 @@
 | Aurelio | LosaLosSantos/aurelio-finance | quản lý tài sản chạy local; không phải lời khuyên đầu tư |
 | Answer me with HTML | QingYunA/answer-me-with-html | skill cho agent trả lời bằng trang HTML; số đo là của repo |
 | Agent Reach | Panniantong/Agent-Reach | cho agent đọc web/YouTube/Reddit/Twitter; cần cookie cho vài nền tảng |
+| Diagram Design | cathrynlavery/diagram-design | skill cho agent vẽ sơ đồ ra 1 trang HTML/SVG; MIT; chủ kênh gợi ý; chưa cho agent tự vẽ, chỉ đổi chữ trong mẫu sang tiếng Việt |
 
 ## Chủ kênh đã bác (đừng đề xuất lại)
 VieNeu-TTS, Umi-OCR, ppt-master (và OfficeCLI đã có video riêng của kênh).

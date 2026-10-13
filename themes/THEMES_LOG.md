@@ -25,3 +25,6 @@ Cùng họa tiết bản TikTok, xoay tông hue 30–260° (khác nhau từng vi
 
 ## localsend-tiktok
 chấm bán sắc cam / teal hình tròn / sóng / trời xanh / mạng lưới tối / vé vàng / gạch đỏ / cung tròn teal.
+
+## diagramdesign-tiktok
+dấu cộng vàng / tam giác cobalt / chevron mint / khối bo xám / kẻ ô caro xanh lá / vảy cá hồng / thoi navy / ô vuông lồng lime.

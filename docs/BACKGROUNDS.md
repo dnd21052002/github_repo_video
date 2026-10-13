@@ -11,6 +11,7 @@
 | Answer me with HTML | tractor (giấy kẻ xanh), swiss đỏ + vòng tròn, checkerboard, sunburst, polka teal, film strip, kraft viền chỉ khâu, lilac gạch chéo |
 | Agent Reach | scanlines CRT, memphis (hình khối màu), radar (vòng đồng tâm xanh), cookie (chấm nâu), lattice xanh lá, sọc kẹo, gradient tím-cam, spotlight |
 | Meetily hướng dẫn (16:9) & bản TikTok màn hình | sunrise (sọc chéo + vòng cam), terrazzo, slate hex, sọc chéo tím, ô vuông xanh, cung tròn cam, kẻ ngang xanh lá, polka vàng, sọc đứng navy, vòng hồng, split teal + vòng vàng |
+| Diagram Design | dấu cộng vàng, tam giác cobalt, chevron mint, khối bo xám, kẻ ô caro xanh lá, vảy cá hồng, thoi navy, ô vuông lồng lime |
 | Bản YouTube Shorts của mọi video | cùng họa tiết với bản TikTok nhưng xoay tông `hue-rotate(30–260°)` (khác nhau từng video) |
 
 ## Cách làm
