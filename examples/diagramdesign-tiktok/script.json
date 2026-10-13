@@ -7,7 +7,7 @@
    ]},
   {"id": "intro", "label": "02 — GIỚI THIỆU",
    "phrases": [
-    {"say": "Đai-a-gram Đi-zai là skill để agent vẽ sơ đồ, thành một trang ếch-tê-em-lờ duy nhất.", "show": "*Diagram Design:*\nvẽ sơ đồ ra 1 trang HTML."},
+    {"say": "Đai-a-gram Đì-giai là skill để agent vẽ sơ đồ, thành một trang ếch-tê-em-lờ duy nhất.", "show": "*Diagram Design:*\nvẽ sơ đồ ra 1 trang HTML."},
     {"say": "Mã nguồn mở, giấy phép em ai ti, hơn năm mươi nghìn sao trên Ghít-hấp.", "show": "*MIT,* mã nguồn mở,\nhơn *50 nghìn sao.*"}
    ]},
   {"id": "types", "label": "03 — CÓ GÌ",
