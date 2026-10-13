@@ -1,0 +1,9 @@
+AI vẽ sơ đồ mà toàn hộp bo tròn nhạt nhòa? 👇
+Diagram Design: skill giúp AI agent vẽ sơ đồ thành 1 trang HTML, hơn 40 kiểu, MIT.
+
+⚠️ Tùy mô hình, không kéo thả được. Mình mới đổi chữ trong mẫu sang tiếng Việt (dấu ổn), chưa cho agent tự vẽ.
+
+Link repo: xem trên màn hình video / ghim ở bình luận (github.com/cathrynlavery/diagram-design)
+
+#aiunbox0026 #diagramdesign #opensource #congcuai
+Nội dung có sử dụng AI hỗ trợ tạo (giọng đọc & hình ảnh).
