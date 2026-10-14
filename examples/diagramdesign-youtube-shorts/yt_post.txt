@@ -1,0 +1,16 @@
+TIÊU ĐỀ (31 ký tự):
+Diagram Design: AI vẽ sơ đồ đẹp
+
+MÔ TẢ:
+AI vẽ sơ đồ mà toàn hộp bo tròn nhạt nhòa? Diagram Design là skill mã nguồn mở (MIT) giúp AI agent vẽ hơn 40 kiểu sơ đồ thành một trang HTML, dùng được với Claude Code, Cursor, Codex.
+
+Link repo: github.com/cathrynlavery/diagram-design
+(Link trong Shorts không bấm được: để dạng chữ trong mô tả, video đã hiện link trên màn hình.)
+
+Lưu ý thật lòng:
+- Chất lượng tùy mô hình, cùng một lệnh có thể ra bố cục khác; kết quả không kéo thả được.
+- Mình mới đổi chữ trong mẫu của repo sang tiếng Việt (dấu hiển thị đúng), chưa cho agent tự vẽ từ lời mô tả.
+
+#Shorts #AIagent #OpenSource #DiagramDesign
+
+Khi đăng: bật mục 'Nội dung bị thay đổi hoặc tổng hợp' = Có (giọng đọc TTS). Kênh: AIUnBox0026. Không đăng cùng lúc với bản TikTok, nên cách vài ngày.

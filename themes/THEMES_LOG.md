@@ -28,3 +28,6 @@ chấm bán sắc cam / teal hình tròn / sóng / trời xanh / mạng lưới 
 
 ## diagramdesign-tiktok
 dấu cộng vàng / tam giác cobalt / chevron mint / khối bo xám / kẻ ô caro xanh lá / vảy cá hồng / thoi navy / ô vuông lồng lime.
+
+## diagramdesign-youtube-shorts
+Cùng họa tiết bản TikTok, xoay tông hue 200°.

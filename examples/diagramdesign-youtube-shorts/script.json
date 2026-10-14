@@ -1,0 +1,121 @@
+{
+ "scenes": [
+  {
+   "id": "hook",
+   "label": "01 — VẤN ĐỀ",
+   "phrases": [
+    {
+     "say": "Nhờ ây ai vẽ sơ đồ, mà ra toàn hộp bo tròn nhạt nhòa, nhìn là biết vẽ vội?",
+     "show": "Nhờ AI vẽ sơ đồ,\n*ra hộp bo tròn nhạt nhòa?*"
+    },
+    {
+     "say": "Có một skill giúp ây ai vẽ đẹp hơn hẳn.",
+     "show": "Có *một skill* giúp\nAI vẽ đẹp hơn."
+    }
+   ]
+  },
+  {
+   "id": "intro",
+   "label": "02 — GIỚI THIỆU",
+   "phrases": [
+    {
+     "say": "Đai-a-gram Đì-giai là skill để agent vẽ sơ đồ, thành một trang duy nhất, mở được bằng trình duyệt.",
+     "show": "*Diagram Design:*\nvẽ sơ đồ ra 1 trang HTML."
+    },
+    {
+     "say": "Mã nguồn mở, giấy phép em ai ti, hơn năm mươi nghìn sao trên Ghít-hấp.",
+     "show": "*MIT,* mã nguồn mở,\nhơn *50 nghìn sao.*"
+    }
+   ]
+  },
+  {
+   "id": "types",
+   "label": "03 — CÓ GÌ",
+   "phrases": [
+    {
+     "say": "Có hơn bốn mươi kiểu sơ đồ: kiến trúc, luồng, trình tự, ma trận bốn ô, biểu đồ cột và nhiều kiểu khác.",
+     "show": "Hơn *40 kiểu sơ đồ:*\nkiến trúc, luồng, ma trận…"
+    },
+    {
+     "say": "Phong cách tối giản: không đổ bóng, mỗi sơ đồ chỉ một màu nhấn.",
+     "show": "Không đổ bóng,\n*mỗi sơ đồ một màu nhấn.*"
+    }
+   ]
+  },
+  {
+   "id": "demo",
+   "label": "04 — TỰ CHẠY THỬ",
+   "phrases": [
+    {
+     "say": "Mình thử đổi một mẫu của repo sang tiếng Việt, dấu hiển thị đúng hết.",
+     "show": "Thử *mẫu của repo*\nsang tiếng Việt: *dấu ổn.*"
+    },
+    {
+     "say": "Mình chỉ đổi chữ trong mẫu, chưa cho agent tự vẽ.",
+     "show": "Mình *chỉ đổi chữ*\ntrong mẫu, agent chưa vẽ."
+    }
+   ]
+  },
+  {
+   "id": "how",
+   "label": "05 — CÁCH DÙNG",
+   "phrases": [
+    {
+     "say": "Cách dùng: bạn mô tả bằng lời, agent chọn kiểu sơ đồ rồi vẽ ra.",
+     "show": "Mô tả bằng lời →\n*agent chọn kiểu & vẽ.*"
+    },
+    {
+     "say": "Bấm đúp là mở được, và xuất ra được ét-vê-gi hoặc pê-en-gi.",
+     "show": "Bấm đúp là mở.\nXuất *SVG, PNG.*"
+    },
+    {
+     "say": "Muốn đúng màu thương hiệu, đưa địa chỉ website, nó lấy bảng màu và phông chữ.",
+     "show": "Đưa website → lấy\n*màu và phông thương hiệu.*"
+    }
+   ]
+  },
+  {
+   "id": "install",
+   "label": "06 — CÀI ĐẶT",
+   "phrases": [
+    {
+     "say": "Cài bằng một lệnh, dùng được với Clau cốt, Cớ-sơ, Cô-đếch, Cô-pai-lớt và nhiều agent khác.",
+     "show": "Một lệnh, hợp *nhiều agent:*\nClaude Code, Cursor…"
+    },
+    {
+     "say": "Cài qua plugin của Clau cốt thì có thêm lệnh và cập nhật.",
+     "show": "Qua *plugin Claude Code*\ncó thêm lệnh, cập nhật."
+    }
+   ]
+  },
+  {
+   "id": "note",
+   "label": "07 — LƯU Ý",
+   "phrases": [
+    {
+     "say": "Nhưng chất lượng phụ thuộc vào mô-đồ bạn dùng, cùng một câu lệnh có thể ra bố cục khác nhau.",
+     "show": "Chất lượng *tùy mô hình;*\ncùng lệnh, bố cục khác."
+    },
+    {
+     "say": "Kết quả không kéo thả được, muốn sửa thì nhờ agent, hoặc sửa thẳng ét-vê-gi.",
+     "show": "Không kéo thả được:\n*nhờ agent sửa lại.*"
+    }
+   ]
+  },
+  {
+   "id": "cta",
+   "label": "08 — LINK",
+   "phrases": [
+    {
+     "say": "Link dự án mình để ngay trên màn hình nhé.",
+     "show": "Link dự án\nở *ngay trên màn hình.*"
+    },
+    {
+     "say": "Nhớ đăng ký kênh, để xem thêm nhiều công cụ ây ai hay nhé.",
+     "show": "Nhớ *đăng ký kênh*\nđể xem thêm công cụ AI.",
+     "speed": 0.93
+    }
+   ]
+  }
+ ]
+}
