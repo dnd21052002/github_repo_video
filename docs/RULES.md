@@ -82,6 +82,10 @@
 - Bài đăng (TikTok/YouTube) **ngắn, ≤ ~550 ký tự**: 1 dòng hook + 1 dòng giới thiệu + 1 dòng lưu ý thật (kể cả "chưa tự chạy thử" nếu vậy) + dòng link + hashtag + nhãn AI. KHÔNG liệt kê dài giấy phép/hệ điều hành/chi tiết kỹ thuật đã nói trong video. Mẫu: `examples/localsend-tiktok/tiktok_post.txt`.
 - TikTok: 4 hashtag là đủ (mẫu LocalSend).
 
+## 7c. Bài đăng — chủ kênh nhắc 14/10/2026 (áp dụng cho mọi video sau)
+- **YouTube (`yt_post.txt`)**: thêm mục **TAGS** (từ khóa cho ô "Thẻ" của YouTube, cách nhau bằng dấu phẩy, ~8–12 từ khóa: tên repo, chủ đề, "công cụ AI", "mã nguồn mở"…). Vẫn giữ đúng 4 hashtag trong mô tả. **Mô tả KHÔNG có mục "Lưu ý thật lòng"** (hạn chế đã nói trong video). **KHÔNG viết chú thích trong ngoặc ()** trong file bài đăng (vd. "(Link trong Shorts không bấm được…)", "(35 ký tự)").
+- **TikTok (`tiktok_post.txt`)**: dòng hook/tiêu đề **ngắn** (~25–40 ký tự + 👇), đừng dài dòng.
+
 ## 8. Giao tiếp với chủ kênh
 - Trả lời bình luận hộ chủ kênh: ngắn gọn, giọng người thật, không văn mẫu như bot.
 - Báo kết quả: nêu rõ cái gì đã kiểm tra thật, cái gì chưa (chưa nghe lại giọng, chưa xem trên app thật…).

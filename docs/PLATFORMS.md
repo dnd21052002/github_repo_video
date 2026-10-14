@@ -6,6 +6,7 @@
 - KHÔNG dán link trong caption → "Link repo: xem trên màn hình video / ghim ở bình luận (…)".
 - Bật nhãn "Nội dung do AI tạo" (dùng TTS). Không dùng nhạc/tài nguyên có bản quyền.
 - Cuối video: URL card + "@ai.unbox0026" + nút "+ Theo dõi"; lời: "Nhớ theo dõi kênh, …".
+- Dòng hook ngắn (xem `docs/RULES.md` §7c).
 - Mẫu bài đăng: `examples/*/tiktok_post.txt`.
 
 ## YouTube Shorts (AIUnBox0026) — 9:16, bản biến thể của video TikTok
@@ -16,6 +17,7 @@ Tạo bằng `variants/make_yt.sh` + `variants/render_yt.sh` (xem `docs/PIPELINE
 - **Tiêu đề NGẮN** (≤ ~40 ký tự, ví dụ "Agent Reach: cho AI đọc cả internet"), **đúng 4 hashtag** (tính cả `#Shorts`).
 - Bật mục "Nội dung bị thay đổi hoặc tổng hợp" = Có (giọng TTS / cảnh do AI tạo).
 - Tránh bị coi là nội dung lặp: không đăng cùng lúc với bản TikTok; nên cách nhau vài ngày; có thể viết lại câu mở đầu.
+- Mô tả: không có mục "Lưu ý thật lòng", không chú thích trong ngoặc (); thêm mục TAGS (xem `docs/RULES.md` §7c).
 - Mẫu: `examples/*-youtube-shorts/yt_post.txt`.
 
 ## YouTube video dài (16:9) — hướng dẫn chi tiết
