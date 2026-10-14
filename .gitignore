@@ -11,3 +11,6 @@ index.html
 snapshots/
 voice/ref.wav
 .env
+__pycache__/
+*.pyc
+cover.png

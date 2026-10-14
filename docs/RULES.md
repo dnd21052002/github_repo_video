@@ -97,3 +97,7 @@
 - Vòng chờ `grep -q "<mẫu>" log` phải dùng mẫu chỉ xuất hiện MỘT lần ở trạng thái mong muốn (mẫu như "Finished" có thể khớp dòng cũ → vòng chờ thoát ngay).
 - Tự động click GUI: kiểm tra trạng thái bằng ảnh chụp/pixel trước khi click bước kế (nút "Continue" bị mờ lúc đang tải); không chạy hai script điều khiển song song.
 - Không chạy lệnh nặng CPU (TTS, render) song song với lúc đo tốc độ/quay màn hình nếu cần số đo công bằng.
+
+## 10. Repo chỉ lưu kỹ thuật (chủ kênh nhắc 14/10/2026)
+- Repo chỉ chứa **mã/cấu hình/tài liệu/mẫu kỹ thuật** (pipeline, scripts, templates, docs, `script.json` + `build.mjs` + bài đăng mẫu trong `examples/`). **KHÔNG commit file sinh ra khi chạy**: mp4, wav, `cover.png`, ảnh snapshot, `index.html`, `build/`, `audio/`, `__pycache__`/`*.pyc`.
+- Mục tiêu: chạy `scripts/setup.sh` / pipeline ở máy local xong thì `git status` **sạch**, không có thay đổi nào so với repo. File sinh ra phải nằm trong `.gitignore`; giữ sản phẩm (mp4, ảnh bìa) ở ngoài repo (thư mục làm việc / gửi qua chat).
